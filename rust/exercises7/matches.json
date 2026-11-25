@@ -1,0 +1,2967 @@
+[
+  {
+    "path": "./linux/Documentation/admin-guide/cgroup-v1/blkio-controller.rst",
+    "line_number": 64,
+    "line": "\t\t     test1 test2"
+  },
+  {
+    "path": "./linux/Documentation/admin-guide/cgroup-v1/blkio-controller.rst",
+    "line_number": 79,
+    "line": "\t\t\troot  test1 test2  test3"
+  },
+  {
+    "path": "./linux/Documentation/admin-guide/gpio/gpio-aggregator.rst",
+    "line_number": 173,
+    "line": "    $ echo test1     > /sys/kernel/config/gpio-aggregator/agg0/line1/name"
+  },
+  {
+    "path": "./linux/Documentation/admin-guide/pm/amd-pstate.rst",
+    "line_number": 240,
+    "line": " root@hr-test1:/home/ray# ls /sys/devices/system/cpu/cpufreq/policy0/*amd*"
+  },
+  {
+    "path": "./linux/Documentation/admin-guide/pm/amd-pstate.rst",
+    "line_number": 477,
+    "line": " root@hr-test1:/home/ray# cpupower frequency-info"
+  },
+  {
+    "path": "./linux/Documentation/admin-guide/pm/amd-pstate.rst",
+    "line_number": 512,
+    "line": " root@hr-test1:/home/ray# cd /sys/kernel/tracing/"
+  },
+  {
+    "path": "./linux/Documentation/admin-guide/pm/amd-pstate.rst",
+    "line_number": 513,
+    "line": " root@hr-test1:/sys/kernel/tracing# echo 1 > events/amd_cpu/enable"
+  },
+  {
+    "path": "./linux/Documentation/admin-guide/pm/amd-pstate.rst",
+    "line_number": 514,
+    "line": " root@hr-test1:/sys/kernel/tracing# cat trace"
+  },
+  {
+    "path": "./linux/Documentation/devicetree/bindings/mux/adi,adgs1408.txt",
+    "line_number": 46,
+    "line": "\t\tchannels = \"out_a0\", \"out_a1\", \"test0\", \"test1\","
+  },
+  {
+    "path": "./linux/Documentation/devicetree/bindings/pinctrl/nvidia,tegra20-pinmux.yaml",
+    "line_number": 61,
+    "line": "                  dap5, displaya, displayb, emc_test0_dll, emc_test1_dll, gmi,"
+  },
+  {
+    "path": "./linux/Documentation/devicetree/bindings/pinctrl/qcom,mdm9607-tlmm.yaml",
+    "line_number": 70,
+    "line": "                atest_gpsadc_dtest1_native, atest_tsens, backlight_en_b,"
+  },
+  {
+    "path": "./linux/Documentation/devicetree/bindings/pinctrl/qcom,msm8917-pinctrl.yaml",
+    "line_number": 72,
+    "line": "                atest_gpsadc_dtest0_native, atest_gpsadc_dtest1_native,"
+  },
+  {
+    "path": "./linux/Documentation/devicetree/bindings/pinctrl/qcom,msm8953-pinctrl.yaml",
+    "line_number": 66,
+    "line": "                atest_gpsadc_dtest0_native, atest_gpsadc_dtest1_native, atest_tsens,"
+  },
+  {
+    "path": "./linux/Documentation/devicetree/bindings/pinctrl/qcom,pmic-gpio.yaml",
+    "line_number": 515,
+    "line": "              - dtest1"
+  },
+  {
+    "path": "./linux/Documentation/devicetree/bindings/pinctrl/qcom,sm4450-tlmm.yaml",
+    "line_number": 92,
+    "line": "                wlan1_adc_dtest0, wlan1_adc_dtest1 ]"
+  },
+  {
+    "path": "./linux/Documentation/networking/devlink/netdevsim.rst",
+    "line_number": 30,
+    "line": "   * - ``test1``"
+  },
+  {
+    "path": "./linux/Documentation/scsi/ChangeLog.ips",
+    "line_number": 66,
+    "line": "                - Merge in changes through kernel 2.4.0test1ac21"
+  },
+  {
+    "path": "./linux/Documentation/userspace-api/netlink/intro.rst",
+    "line_number": 256,
+    "line": "``\"test1\"`` we need to send a message on the previously opened Generic Netlink"
+  },
+  {
+    "path": "./linux/Documentation/userspace-api/netlink/intro.rst",
+    "line_number": 278,
+    "line": "    char data: \t\ttest1\\0"
+  },
+  {
+    "path": "./linux/Documentation/userspace-api/netlink/intro.rst",
+    "line_number": 308,
+    "line": "    char data: \t\ttest1\\0"
+  },
+  {
+    "path": "./linux/Documentation/userspace-api/netlink/intro.rst",
+    "line_number": 465,
+    "line": "    char data: \t\ttest1\\0"
+  },
+  {
+    "path": "./linux/arch/alpha/kernel/smc37c669.c",
+    "line_number": 524,
+    "line": "\tunsigned test1 : 1;\t    /* Reserved - set to 0\t    */"
+  },
+  {
+    "path": "./linux/arch/mips/include/uapi/asm/sigcontext.h",
+    "line_number": 64,
+    "line": " * int so it was changed to unsigned long in 2.6.0-test1.  This may break"
+  },
+  {
+    "path": "./linux/arch/powerpc/kvm/test-guest-state-buffer.c",
+    "line_number": 212,
+    "line": "struct kvmppc_gs_msg_test1_data {"
+  },
+  {
+    "path": "./linux/arch/powerpc/kvm/test-guest-state-buffer.c",
+    "line_number": 220,
+    "line": "static size_t test1_get_size(struct kvmppc_gs_msg *gsm)"
+  },
+  {
+    "path": "./linux/arch/powerpc/kvm/test-guest-state-buffer.c",
+    "line_number": 236,
+    "line": "static int test1_fill_info(struct kvmppc_gs_buff *gsb,"
+  },
+  {
+    "path": "./linux/arch/powerpc/kvm/test-guest-state-buffer.c",
+    "line_number": 239,
+    "line": "\tstruct kvmppc_gs_msg_test1_data *data = gsm->data;"
+  },
+  {
+    "path": "./linux/arch/powerpc/kvm/test-guest-state-buffer.c",
+    "line_number": 261,
+    "line": "static int test1_refresh_info(struct kvmppc_gs_msg *gsm,"
+  },
+  {
+    "path": "./linux/arch/powerpc/kvm/test-guest-state-buffer.c",
+    "line_number": 265,
+    "line": "\tstruct kvmppc_gs_msg_test1_data *data = gsm->data;"
+  },
+  {
+    "path": "./linux/arch/powerpc/kvm/test-guest-state-buffer.c",
+    "line_number": 284,
+    "line": "static struct kvmppc_gs_msg_ops gs_msg_test1_ops = {"
+  },
+  {
+    "path": "./linux/arch/powerpc/kvm/test-guest-state-buffer.c",
+    "line_number": 285,
+    "line": "\t.get_size = test1_get_size,"
+  },
+  {
+    "path": "./linux/arch/powerpc/kvm/test-guest-state-buffer.c",
+    "line_number": 286,
+    "line": "\t.fill_info = test1_fill_info,"
+  },
+  {
+    "path": "./linux/arch/powerpc/kvm/test-guest-state-buffer.c",
+    "line_number": 287,
+    "line": "\t.refresh_info = test1_refresh_info,"
+  },
+  {
+    "path": "./linux/arch/powerpc/kvm/test-guest-state-buffer.c",
+    "line_number": 292,
+    "line": "\tstruct kvmppc_gs_msg_test1_data test1_data = {"
+  },
+  {
+    "path": "./linux/arch/powerpc/kvm/test-guest-state-buffer.c",
+    "line_number": 299,
+    "line": "\tgsm = kvmppc_gsm_new(&gs_msg_test1_ops, &test1_data, GSM_SEND,"
+  },
+  {
+    "path": "./linux/arch/powerpc/kvm/test-guest-state-buffer.c",
+    "line_number": 314,
+    "line": "\tmemset(&test1_data, 0, sizeof(test1_data));"
+  },
+  {
+    "path": "./linux/arch/powerpc/kvm/test-guest-state-buffer.c",
+    "line_number": 317,
+    "line": "\tKUNIT_EXPECT_EQ(test, test1_data.a, 0xdeadbeef);"
+  },
+  {
+    "path": "./linux/arch/powerpc/kvm/test-guest-state-buffer.c",
+    "line_number": 318,
+    "line": "\tKUNIT_EXPECT_EQ(test, test1_data.b, 0x1);"
+  },
+  {
+    "path": "./linux/arch/powerpc/lib/feature-fixups-test.S",
+    "line_number": 18,
+    "line": "globl(ftr_fixup_test1)"
+  },
+  {
+    "path": "./linux/arch/powerpc/lib/feature-fixups-test.S",
+    "line_number": 23,
+    "line": "globl(end_ftr_fixup_test1)"
+  },
+  {
+    "path": "./linux/arch/powerpc/lib/feature-fixups-test.S",
+    "line_number": 25,
+    "line": "globl(ftr_fixup_test1_orig)"
+  },
+  {
+    "path": "./linux/arch/powerpc/lib/feature-fixups-test.S",
+    "line_number": 30,
+    "line": "globl(ftr_fixup_test1_expected)"
+  },
+  {
+    "path": "./linux/arch/powerpc/lib/feature-fixups.c",
+    "line_number": 727,
+    "line": "\textern unsigned int ftr_fixup_test1[];"
+  },
+  {
+    "path": "./linux/arch/powerpc/lib/feature-fixups.c",
+    "line_number": 728,
+    "line": "\textern unsigned int end_ftr_fixup_test1[];"
+  },
+  {
+    "path": "./linux/arch/powerpc/lib/feature-fixups.c",
+    "line_number": 729,
+    "line": "\textern unsigned int ftr_fixup_test1_orig[];"
+  },
+  {
+    "path": "./linux/arch/powerpc/lib/feature-fixups.c",
+    "line_number": 730,
+    "line": "\textern unsigned int ftr_fixup_test1_expected[];"
+  },
+  {
+    "path": "./linux/arch/powerpc/lib/feature-fixups.c",
+    "line_number": 731,
+    "line": "\tint size = 4 * (end_ftr_fixup_test1 - ftr_fixup_test1);"
+  },
+  {
+    "path": "./linux/arch/powerpc/lib/feature-fixups.c",
+    "line_number": 734,
+    "line": "\tfixup.start_off = calc_offset(&fixup, ftr_fixup_test1 + 1);"
+  },
+  {
+    "path": "./linux/arch/powerpc/lib/feature-fixups.c",
+    "line_number": 735,
+    "line": "\tfixup.end_off = calc_offset(&fixup, ftr_fixup_test1 + 2);"
+  },
+  {
+    "path": "./linux/arch/powerpc/lib/feature-fixups.c",
+    "line_number": 739,
+    "line": "\tcheck(memcmp(ftr_fixup_test1, ftr_fixup_test1_orig, size) == 0);"
+  },
+  {
+    "path": "./linux/arch/powerpc/lib/feature-fixups.c",
+    "line_number": 743,
+    "line": "\tcheck(memcmp(ftr_fixup_test1, ftr_fixup_test1_orig, size) == 0);"
+  },
+  {
+    "path": "./linux/arch/powerpc/lib/feature-fixups.c",
+    "line_number": 747,
+    "line": "\tcheck(memcmp(ftr_fixup_test1, ftr_fixup_test1_expected, size) == 0);"
+  },
+  {
+    "path": "./linux/arch/powerpc/lib/feature-fixups.c",
+    "line_number": 750,
+    "line": "\tmemcpy(ftr_fixup_test1, ftr_fixup_test1_orig, size);"
+  },
+  {
+    "path": "./linux/arch/powerpc/lib/feature-fixups.c",
+    "line_number": 751,
+    "line": "\tcheck(memcmp(ftr_fixup_test1, ftr_fixup_test1_orig, size) == 0);"
+  },
+  {
+    "path": "./linux/arch/powerpc/lib/feature-fixups.c",
+    "line_number": 753,
+    "line": "\tcheck(memcmp(ftr_fixup_test1, ftr_fixup_test1_expected, size) == 0);"
+  },
+  {
+    "path": "./linux/arch/powerpc/platforms/powermac/feature.c",
+    "line_number": 1157,
+    "line": "\t\t\tu32 test0 = 0, test1 = 0;"
+  },
+  {
+    "path": "./linux/arch/powerpc/platforms/powermac/feature.c",
+    "line_number": 1165,
+    "line": "\t\t\t\ttest1 = UNI_N_CLOCK_STOPPED_USB0PCI;"
+  },
+  {
+    "path": "./linux/arch/powerpc/platforms/powermac/feature.c",
+    "line_number": 1169,
+    "line": "\t\t\t\ttest1 = UNI_N_CLOCK_STOPPED_USB1PCI;"
+  },
+  {
+    "path": "./linux/arch/powerpc/platforms/powermac/feature.c",
+    "line_number": 1173,
+    "line": "\t\t\t\ttest1 = UNI_N_CLOCK_STOPPED_USB2PCI;"
+  },
+  {
+    "path": "./linux/arch/powerpc/platforms/powermac/feature.c",
+    "line_number": 1185,
+    "line": "\t\t\t} while ((status0 & test0) | (status1 & test1));"
+  },
+  {
+    "path": "./linux/drivers/clk/nxp/clk-lpc32xx.c",
+    "line_number": 287,
+    "line": "\tLPC32XX_CLK_DEFINE(TEST1, \"test1\", 0x0,"
+  },
+  {
+    "path": "./linux/drivers/clk/nxp/clk-lpc32xx.c",
+    "line_number": 796,
+    "line": "static u32 test1_mux_table[] = { 0, 1, 2, };"
+  },
+  {
+    "path": "./linux/drivers/clk/nxp/clk-lpc32xx.c",
+    "line_number": 1324,
+    "line": "\t\t\t   test1_mux_table, 0),"
+  },
+  {
+    "path": "./linux/drivers/gpu/drm/mgag200/mgag200_drv.c",
+    "line_number": 54,
+    "line": "\tint test1, test2;"
+  },
+  {
+    "path": "./linux/drivers/gpu/drm/mgag200/mgag200_drv.c",
+    "line_number": 71,
+    "line": "\t\ttest1 = ioread16(mem + offset);"
+  },
+  {
+    "path": "./linux/drivers/gpu/drm/mgag200/mgag200_drv.c",
+    "line_number": 77,
+    "line": "\t\tif (test1 != 0xaa55)"
+  },
+  {
+    "path": "./linux/drivers/gpu/drm/vkms/tests/vkms_config_test.c",
+    "line_number": 635,
+    "line": "\tconfig1 = vkms_config_create(\"test1\");"
+  },
+  {
+    "path": "./linux/drivers/media/dvb-frontends/dib3000mb.c",
+    "line_number": 447,
+    "line": "\tint inv_test1,inv_test2;"
+  },
+  {
+    "path": "./linux/drivers/media/dvb-frontends/dib3000mb.c",
+    "line_number": 456,
+    "line": "\t\tinv_test1 = 0;"
+  },
+  {
+    "path": "./linux/drivers/media/dvb-frontends/dib3000mb.c",
+    "line_number": 458,
+    "line": "\t\tinv_test1 = 1;"
+  },
+  {
+    "path": "./linux/drivers/media/dvb-frontends/dib3000mb.c",
+    "line_number": 460,
+    "line": "\t\tinv_test1 = 2;"
+  },
+  {
+    "path": "./linux/drivers/media/dvb-frontends/dib3000mb.c",
+    "line_number": 472,
+    "line": "\t\t((inv_test2 == 2) && (inv_test1==1 || inv_test1==0)) ||"
+  },
+  {
+    "path": "./linux/drivers/media/dvb-frontends/dib3000mb.c",
+    "line_number": 473,
+    "line": "\t\t((inv_test2 == 0) && (inv_test1==1 || inv_test1==2)) ?"
+  },
+  {
+    "path": "./linux/drivers/media/dvb-frontends/dib3000mb.c",
+    "line_number": 476,
+    "line": "\tdeb_getf(\"inversion %d %d, %d\\n\", inv_test2, inv_test1, c->inversion);"
+  },
+  {
+    "path": "./linux/drivers/misc/sgi-gru/grukservices.c",
+    "line_number": 993,
+    "line": "static int quicktest1(unsigned long arg)"
+  },
+  {
+    "path": "./linux/drivers/misc/sgi-gru/grukservices.c",
+    "line_number": 1017,
+    "line": "\t\tprintk(KERN_DEBUG \"GRU:%d quicktest1: unexpected status %d, i %d\\n\","
+  },
+  {
+    "path": "./linux/drivers/misc/sgi-gru/grukservices.c",
+    "line_number": 1131,
+    "line": "\t\tret = quicktest1(arg);"
+  },
+  {
+    "path": "./linux/drivers/net/netdevsim/dev.c",
+    "line_number": 321,
+    "line": "\tdebugfs_create_bool(\"test1\", 0600, nsim_dev->ddir,"
+  },
+  {
+    "path": "./linux/drivers/net/netdevsim/dev.c",
+    "line_number": 322,
+    "line": "\t\t\t    &nsim_dev->test1);"
+  },
+  {
+    "path": "./linux/drivers/net/netdevsim/dev.c",
+    "line_number": 531,
+    "line": "\t\t\t     \"test1\", DEVLINK_PARAM_TYPE_BOOL,"
+  },
+  {
+    "path": "./linux/drivers/net/netdevsim/dev.c",
+    "line_number": 545,
+    "line": "\tvalue.vbool = nsim_dev->test1;"
+  },
+  {
+    "path": "./linux/drivers/net/netdevsim/dev.c",
+    "line_number": 566,
+    "line": "\t\tnsim_dev->test1 = saved_value.vbool;"
+  },
+  {
+    "path": "./linux/drivers/net/netdevsim/dev.c",
+    "line_number": 1592,
+    "line": "\tnsim_dev->test1 = NSIM_DEV_TEST1_DEFAULT;"
+  },
+  {
+    "path": "./linux/drivers/net/netdevsim/netdevsim.h",
+    "line_number": 328,
+    "line": "\tbool test1;"
+  },
+  {
+    "path": "./linux/drivers/net/wireless/broadcom/b43legacy/main.c",
+    "line_number": 419,
+    "line": "\t\tu16 test1;"
+  },
+  {
+    "path": "./linux/drivers/net/wireless/broadcom/b43legacy/main.c",
+    "line_number": 431,
+    "line": "\t\t\ttest1 = b43legacy_read16(dev, B43legacy_MMIO_TSF_1);"
+  },
+  {
+    "path": "./linux/drivers/net/wireless/broadcom/b43legacy/main.c",
+    "line_number": 432,
+    "line": "\t\t} while (v3 != test3 || v2 != test2 || v1 != test1);"
+  },
+  {
+    "path": "./linux/drivers/of/unittest-data/overlay_1.dtso",
+    "line_number": 7,
+    "line": "&{/testcase-data/overlay-node/test-bus/test-unittest1} {"
+  },
+  {
+    "path": "./linux/drivers/of/unittest-data/overlay_10.dtso",
+    "line_number": 13,
+    "line": "\ttest-unittest10 {"
+  },
+  {
+    "path": "./linux/drivers/of/unittest-data/overlay_10.dtso",
+    "line_number": 21,
+    "line": "\t\ttest-unittest101 {"
+  },
+  {
+    "path": "./linux/drivers/of/unittest-data/overlay_11.dtso",
+    "line_number": 13,
+    "line": "\ttest-unittest11 {"
+  },
+  {
+    "path": "./linux/drivers/of/unittest-data/overlay_11.dtso",
+    "line_number": 21,
+    "line": "\t\ttest-unittest111 {"
+  },
+  {
+    "path": "./linux/drivers/of/unittest-data/overlay_12.dtso",
+    "line_number": 7,
+    "line": "&{/testcase-data/overlay-node/test-bus/i2c-test-bus/test-unittest12} {"
+  },
+  {
+    "path": "./linux/drivers/of/unittest-data/overlay_13.dtso",
+    "line_number": 7,
+    "line": "&{/testcase-data/overlay-node/test-bus/i2c-test-bus/test-unittest13} {"
+  },
+  {
+    "path": "./linux/drivers/of/unittest-data/overlay_15.dtso",
+    "line_number": 11,
+    "line": "\ttest-unittest15 {"
+  },
+  {
+    "path": "./linux/drivers/of/unittest-data/overlay_16.dtso",
+    "line_number": 11,
+    "line": "\ttest-unittest16 {"
+  },
+  {
+    "path": "./linux/drivers/of/unittest-data/overlay_17.dtso",
+    "line_number": 11,
+    "line": "\ttest-unittest17 {"
+  },
+  {
+    "path": "./linux/drivers/of/unittest-data/overlay_18.dtso",
+    "line_number": 11,
+    "line": "\ttest-unittest18 {"
+  },
+  {
+    "path": "./linux/drivers/of/unittest-data/overlay_19.dtso",
+    "line_number": 11,
+    "line": "\ttest-unittest19 {"
+  },
+  {
+    "path": "./linux/drivers/of/unittest-data/tests-overlay.dtsi",
+    "line_number": 12,
+    "line": "\t\t\t\tunittest100: test-unittest100 {"
+  },
+  {
+    "path": "./linux/drivers/of/unittest-data/tests-overlay.dtsi",
+    "line_number": 18,
+    "line": "\t\t\t\tunittest101: test-unittest101 {"
+  },
+  {
+    "path": "./linux/drivers/of/unittest-data/tests-overlay.dtsi",
+    "line_number": 30,
+    "line": "\t\t\t\tunittest1: test-unittest1 {"
+  },
+  {
+    "path": "./linux/drivers/of/unittest-data/tests-overlay.dtsi",
+    "line_number": 80,
+    "line": "\t\t\t\t\ttest-unittest12 {"
+  },
+  {
+    "path": "./linux/drivers/of/unittest-data/tests-overlay.dtsi",
+    "line_number": 86,
+    "line": "\t\t\t\t\ttest-unittest13 {"
+  },
+  {
+    "path": "./linux/drivers/of/unittest-data/tests-overlay.dtsi",
+    "line_number": 92,
+    "line": "\t\t\t\t\ttest-unittest14 {"
+  },
+  {
+    "path": "./linux/drivers/of/unittest.c",
+    "line_number": 2623,
+    "line": "\t\t     \"OF: overlay: WARNING: memory leak will occur if overlay removed, property: /testcase-data/overlay-node/test-bus/test-unittest1/status\");"
+  },
+  {
+    "path": "./linux/drivers/of/unittest.c",
+    "line_number": 2629,
+    "line": "\t\t   \"OF: overlay: WARNING: memory leak will occur if overlay removed, property: /testcase-data/overlay-node/test-bus/test-unittest1/status\");"
+  },
+  {
+    "path": "./linux/drivers/of/unittest.c",
+    "line_number": 2914,
+    "line": "\tchild_path = kasprintf(GFP_KERNEL, \"%s/test-unittest101\","
+  },
+  {
+    "path": "./linux/drivers/of/unittest.c",
+    "line_number": 3196,
+    "line": "\t\t     \"OF: overlay: WARNING: memory leak will occur if overlay removed, property: /testcase-data/overlay-node/test-bus/i2c-test-bus/test-unittest12/status\");"
+  },
+  {
+    "path": "./linux/drivers/of/unittest.c",
+    "line_number": 3201,
+    "line": "\t\t   \"OF: overlay: WARNING: memory leak will occur if overlay removed, property: /testcase-data/overlay-node/test-bus/i2c-test-bus/test-unittest12/status\");"
+  },
+  {
+    "path": "./linux/drivers/of/unittest.c",
+    "line_number": 3215,
+    "line": "\t\t     \"OF: overlay: WARNING: memory leak will occur if overlay removed, property: /testcase-data/overlay-node/test-bus/i2c-test-bus/test-unittest13/status\");"
+  },
+  {
+    "path": "./linux/drivers/of/unittest.c",
+    "line_number": 3221,
+    "line": "\t\t   \"OF: overlay: WARNING: memory leak will occur if overlay removed, property: /testcase-data/overlay-node/test-bus/i2c-test-bus/test-unittest13/status\");"
+  },
+  {
+    "path": "./linux/drivers/of/unittest.c",
+    "line_number": 3270,
+    "line": "\t * error number that matches the test number.  e.g. for unittest16,"
+  },
+  {
+    "path": "./linux/drivers/of/unittest.c",
+    "line_number": 3285,
+    "line": "\t\tfound = of_find_node_by_name(nd->overlay, \"test-unittest16\");"
+  },
+  {
+    "path": "./linux/drivers/of/unittest.c",
+    "line_number": 3293,
+    "line": "\t\tfound = of_find_node_by_name(nd->overlay, \"test-unittest17\");"
+  },
+  {
+    "path": "./linux/drivers/of/unittest.c",
+    "line_number": 3301,
+    "line": "\t\tfound = of_find_node_by_name(nd->overlay, \"test-unittest18\");"
+  },
+  {
+    "path": "./linux/drivers/of/unittest.c",
+    "line_number": 3309,
+    "line": "\t\tfound = of_find_node_by_name(nd->overlay, \"test-unittest19\");"
+  },
+  {
+    "path": "./linux/drivers/of/unittest.c",
+    "line_number": 3471,
+    "line": "\t\tunittest(0, \"unittest1 @ \\\"%s\\\" should not exist\\n\","
+  },
+  {
+    "path": "./linux/drivers/pinctrl/qcom/pinctrl-mdm9607.c",
+    "line_number": 282,
+    "line": "\tmsm_mux_atest_gpsadc_dtest1_native,"
+  },
+  {
+    "path": "./linux/drivers/pinctrl/qcom/pinctrl-mdm9607.c",
+    "line_number": 722,
+    "line": "static const char * const atest_gpsadc_dtest1_native_groups[] = {"
+  },
+  {
+    "path": "./linux/drivers/pinctrl/qcom/pinctrl-mdm9607.c",
+    "line_number": 812,
+    "line": "\tMSM_PIN_FUNCTION(atest_gpsadc_dtest1_native),"
+  },
+  {
+    "path": "./linux/drivers/pinctrl/qcom/pinctrl-mdm9607.c",
+    "line_number": 998,
+    "line": "\tPINGROUP(58, _, ssbi1, _, qdss_tracedata_b, _, atest_gpsadc_dtest1_native, _, _, _),"
+  },
+  {
+    "path": "./linux/drivers/pinctrl/qcom/pinctrl-msm8917.c",
+    "line_number": 392,
+    "line": "\tmsm_mux_atest_gpsadc_dtest1_native,"
+  },
+  {
+    "path": "./linux/drivers/pinctrl/qcom/pinctrl-msm8917.c",
+    "line_number": 749,
+    "line": "static const char * const atest_gpsadc_dtest1_native_groups[] = {"
+  },
+  {
+    "path": "./linux/drivers/pinctrl/qcom/pinctrl-msm8917.c",
+    "line_number": 1236,
+    "line": "\tMSM_PIN_FUNCTION(atest_gpsadc_dtest1_native),"
+  },
+  {
+    "path": "./linux/drivers/pinctrl/qcom/pinctrl-msm8917.c",
+    "line_number": 1422,
+    "line": "\t\t atest_gpsadc_dtest1_native, _, _, _),"
+  },
+  {
+    "path": "./linux/drivers/pinctrl/qcom/pinctrl-msm8953.c",
+    "line_number": 403,
+    "line": "\tmsm_mux_atest_gpsadc_dtest1_native,"
+  },
+  {
+    "path": "./linux/drivers/pinctrl/qcom/pinctrl-msm8953.c",
+    "line_number": 640,
+    "line": "static const char * const atest_gpsadc_dtest1_native_groups[] = {"
+  },
+  {
+    "path": "./linux/drivers/pinctrl/qcom/pinctrl-msm8953.c",
+    "line_number": 1438,
+    "line": "\tMSM_PIN_FUNCTION(atest_gpsadc_dtest1_native),"
+  },
+  {
+    "path": "./linux/drivers/pinctrl/qcom/pinctrl-msm8953.c",
+    "line_number": 1652,
+    "line": "\t\t qdss_tracectl_a, _, atest_gpsadc_dtest1_native, _, _, _),"
+  },
+  {
+    "path": "./linux/drivers/pinctrl/qcom/pinctrl-sm4450.c",
+    "line_number": 477,
+    "line": "\tmsm_mux_wlan1_adc_dtest1,"
+  },
+  {
+    "path": "./linux/drivers/pinctrl/qcom/pinctrl-sm4450.c",
+    "line_number": 720,
+    "line": "static const char * const wlan1_adc_dtest1_groups[] = {"
+  },
+  {
+    "path": "./linux/drivers/pinctrl/qcom/pinctrl-sm4450.c",
+    "line_number": 794,
+    "line": "\tMSM_PIN_FUNCTION(wlan1_adc_dtest1),"
+  },
+  {
+    "path": "./linux/drivers/pinctrl/qcom/pinctrl-sm4450.c",
+    "line_number": 884,
+    "line": "\t[80] = PINGROUP(80, _, _, dbg_out_clk, wlan1_adc_dtest1, atest_usb0, _, _, _, _),"
+  },
+  {
+    "path": "./linux/drivers/pinctrl/tegra/pinctrl-tegra20.c",
+    "line_number": 1907,
+    "line": "\tFUNCTION(emc_test1_dll),"
+  },
+  {
+    "path": "./linux/drivers/scsi/aic7xxx/aicasm/aicasm_scan.l",
+    "line_number": 238,
+    "line": "\t/* test16\t\t\t{ return T_TEST16; }*/"
+  },
+  {
+    "path": "./linux/drivers/scsi/ips.c",
+    "line_number": 92,
+    "line": "/*            Merge in changes through kernel 2.4.0test1ac21                 */"
+  },
+  {
+    "path": "./linux/drivers/scsi/ncr53c8xx.c",
+    "line_number": 7656,
+    "line": "\tOUTB(nc_stest1, DBLEN);\t   /* Enable clock multiplier\t\t  */"
+  },
+  {
+    "path": "./linux/drivers/scsi/ncr53c8xx.c",
+    "line_number": 7667,
+    "line": "\tOUTB(nc_stest1, (DBLEN|DBLSEL));/* Select clock multiplier\t*/"
+  },
+  {
+    "path": "./linux/drivers/scsi/ncr53c8xx.c",
+    "line_number": 7695,
+    "line": "\tOUTB (nc_stest1, 0);\t/* make sure clock doubler is OFF */"
+  },
+  {
+    "path": "./linux/drivers/scsi/ncr53c8xx.c",
+    "line_number": 7729,
+    "line": "\tunsigned char stest1 = INB(nc_stest1);"
+  },
+  {
+    "path": "./linux/drivers/scsi/ncr53c8xx.c",
+    "line_number": 7738,
+    "line": "\tif (mult > 1 && (stest1 & (DBLEN+DBLSEL)) == DBLEN+DBLSEL) {"
+  },
+  {
+    "path": "./linux/drivers/scsi/ncr53c8xx.h",
+    "line_number": 705,
+    "line": "/*19*/  u8\tnc_ctest1;"
+  },
+  {
+    "path": "./linux/drivers/scsi/ncr53c8xx.h",
+    "line_number": 790,
+    "line": "/*4d*/  u8\tnc_stest1;"
+  },
+  {
+    "path": "./linux/drivers/scsi/sym53c8xx_2/sym_defs.h",
+    "line_number": 183,
+    "line": "/*19*/  u8\tnc_ctest1;"
+  },
+  {
+    "path": "./linux/drivers/scsi/sym53c8xx_2/sym_defs.h",
+    "line_number": 267,
+    "line": "/*4d*/  u8\tnc_stest1;"
+  },
+  {
+    "path": "./linux/drivers/scsi/sym53c8xx_2/sym_hipd.c",
+    "line_number": 245,
+    "line": "\tOUTB(np, nc_stest1, DBLEN);\t   /* Enable clock multiplier */"
+  },
+  {
+    "path": "./linux/drivers/scsi/sym53c8xx_2/sym_hipd.c",
+    "line_number": 263,
+    "line": "\tOUTB(np, nc_stest1, (DBLEN|DBLSEL));/* Select clock multiplier\t*/"
+  },
+  {
+    "path": "./linux/drivers/scsi/sym53c8xx_2/sym_hipd.c",
+    "line_number": 379,
+    "line": "\tunsigned char stest1 = np->sv_stest1;"
+  },
+  {
+    "path": "./linux/drivers/scsi/sym53c8xx_2/sym_hipd.c",
+    "line_number": 387,
+    "line": "\tif (mult > 1 && (stest1 & (DBLEN+DBLSEL)) == DBLEN+DBLSEL) {"
+  },
+  {
+    "path": "./linux/drivers/scsi/sym53c8xx_2/sym_hipd.c",
+    "line_number": 399,
+    "line": "\t\tOUTB(np, nc_stest1, 0);\t\t/* make sure doubler is OFF */"
+  },
+  {
+    "path": "./linux/drivers/scsi/sym53c8xx_2/sym_hipd.c",
+    "line_number": 446,
+    "line": "\t\tOUTB(np, nc_stest1, SCLK); /* Use the PCI clock as SCSI clock */"
+  },
+  {
+    "path": "./linux/drivers/scsi/sym53c8xx_2/sym_hipd.c",
+    "line_number": 448,
+    "line": "\t\tOUTB(np, nc_stest1, 0);"
+  },
+  {
+    "path": "./linux/drivers/scsi/sym53c8xx_2/sym_hipd.c",
+    "line_number": 623,
+    "line": "\tnp->sv_stest1\t= INB(np, nc_stest1);"
+  },
+  {
+    "path": "./linux/drivers/scsi/sym53c8xx_2/sym_hipd.c",
+    "line_number": 1797,
+    "line": "\t\tOUTB(np, nc_stest1, INB(np, nc_stest1) | 0x30);"
+  },
+  {
+    "path": "./linux/drivers/scsi/sym53c8xx_2/sym_hipd.h",
+    "line_number": 842,
+    "line": "\t\tsv_stest1;"
+  },
+  {
+    "path": "./linux/drivers/usb/dwc3/gadget.c",
+    "line_number": 1822,
+    "line": " * Let test0 = test status for combination 'b00 and test1 = test status for 'b01"
+  },
+  {
+    "path": "./linux/drivers/usb/dwc3/gadget.c",
+    "line_number": 1825,
+    "line": " * if test0 fails and test1 passes, BIT[15:14] is 'b01"
+  },
+  {
+    "path": "./linux/drivers/usb/dwc3/gadget.c",
+    "line_number": 1826,
+    "line": " * if test0 fails and test1 fails, BIT[15:14] is 'b10"
+  },
+  {
+    "path": "./linux/drivers/usb/dwc3/gadget.c",
+    "line_number": 1827,
+    "line": " * if test0 passes and test1 fails, BIT[15:14] is 'b11"
+  },
+  {
+    "path": "./linux/drivers/usb/dwc3/gadget.c",
+    "line_number": 1828,
+    "line": " * if test0 passes and test1 passes, BIT[15:14] is 'b00"
+  },
+  {
+    "path": "./linux/drivers/usb/dwc3/gadget.c",
+    "line_number": 1837,
+    "line": "\tbool test1;"
+  },
+  {
+    "path": "./linux/drivers/usb/dwc3/gadget.c",
+    "line_number": 1882,
+    "line": "\t/* test0 and test1 are both completed at this point */"
+  },
+  {
+    "path": "./linux/drivers/usb/dwc3/gadget.c",
+    "line_number": 1884,
+    "line": "\ttest1 = (cmd_status == 0);"
+  },
+  {
+    "path": "./linux/drivers/usb/dwc3/gadget.c",
+    "line_number": 1886,
+    "line": "\tif (!test0 && test1)"
+  },
+  {
+    "path": "./linux/drivers/usb/dwc3/gadget.c",
+    "line_number": 1888,
+    "line": "\telse if (!test0 && !test1)"
+  },
+  {
+    "path": "./linux/drivers/usb/dwc3/gadget.c",
+    "line_number": 1890,
+    "line": "\telse if (test0 && !test1)"
+  },
+  {
+    "path": "./linux/drivers/usb/dwc3/gadget.c",
+    "line_number": 1892,
+    "line": "\telse if (test0 && test1)"
+  },
+  {
+    "path": "./linux/drivers/usb/misc/usbtest.c",
+    "line_number": 2224,
+    "line": "\t\tretval = simple_io(dev, urb, param->iterations, 0, 0, \"test1\");"
+  },
+  {
+    "path": "./linux/drivers/usb/misc/usbtest.c",
+    "line_number": 2466,
+    "line": "\t\t\t\t0, \"test17\");"
+  },
+  {
+    "path": "./linux/drivers/usb/misc/usbtest.c",
+    "line_number": 2479,
+    "line": "\t\t\t\t0, \"test18\");"
+  },
+  {
+    "path": "./linux/drivers/usb/misc/usbtest.c",
+    "line_number": 2493,
+    "line": "\t\t\t\tURB_NO_TRANSFER_DMA_MAP, \"test19\");"
+  },
+  {
+    "path": "./linux/include/dt-bindings/pinctrl/qcom,pmic-gpio.h",
+    "line_number": 104,
+    "line": "#define PMIC_GPIO_FUNC_DTEST1\t\t\"dtest1\""
+  },
+  {
+    "path": "./linux/include/dt-bindings/pinctrl/qcom,pmic-mpp.h",
+    "line_number": 101,
+    "line": "#define PMIC_MPP_FUNC_DTEST1\t\t\"dtest1\""
+  },
+  {
+    "path": "./linux/kernel/rcu/rcuscale.c",
+    "line_number": 848,
+    "line": "static struct rcu_head lazy_test1_rh;"
+  },
+  {
+    "path": "./linux/kernel/rcu/rcuscale.c",
+    "line_number": 849,
+    "line": "static int rcu_lazy_test1_cb_called;"
+  },
+  {
+    "path": "./linux/kernel/rcu/rcuscale.c",
+    "line_number": 850,
+    "line": "static void call_rcu_lazy_test1(struct rcu_head *rh)"
+  },
+  {
+    "path": "./linux/kernel/rcu/rcuscale.c",
+    "line_number": 853,
+    "line": "\tWRITE_ONCE(rcu_lazy_test1_cb_called, 1);"
+  },
+  {
+    "path": "./linux/kernel/rcu/rcuscale.c",
+    "line_number": 884,
+    "line": "\t\tcall_rcu(&lazy_test1_rh, call_rcu_lazy_test1);"
+  },
+  {
+    "path": "./linux/kernel/rcu/rcuscale.c",
+    "line_number": 886,
+    "line": "\t\tsmp_cond_load_relaxed(&rcu_lazy_test1_cb_called, VAL == 1);"
+  },
+  {
+    "path": "./linux/lib/crypto/tests/hash-test-template.h",
+    "line_number": 323,
+    "line": "struct hash_irq_test1_state {"
+  },
+  {
+    "path": "./linux/lib/crypto/tests/hash-test-template.h",
+    "line_number": 333,
+    "line": "static bool hash_irq_test1_func(void *state_)"
+  },
+  {
+    "path": "./linux/lib/crypto/tests/hash-test-template.h",
+    "line_number": 335,
+    "line": "\tstruct hash_irq_test1_state *state = state_;"
+  },
+  {
+    "path": "./linux/lib/crypto/tests/hash-test-template.h",
+    "line_number": 349,
+    "line": "\tstruct hash_irq_test1_state state = {};"
+  },
+  {
+    "path": "./linux/lib/crypto/tests/hash-test-template.h",
+    "line_number": 357,
+    "line": "\tkunit_run_irq_test(test, hash_irq_test1_func, 100000, &state);"
+  },
+  {
+    "path": "./linux/lib/kunit/executor_test.c",
+    "line_number": 21,
+    "line": "\t{ .name = \"test1\", .run_case = dummy_test },"
+  },
+  {
+    "path": "./linux/lib/kunit/executor_test.c",
+    "line_number": 81,
+    "line": "\t/* Want: suite1, suite2, NULL -> suite2 (just test1), NULL */"
+  },
+  {
+    "path": "./linux/lib/random32.c",
+    "line_number": 130,
+    "line": "static struct prandom_test1 {"
+  },
+  {
+    "path": "./linux/lib/random32.c",
+    "line_number": 133,
+    "line": "} test1[] = {"
+  },
+  {
+    "path": "./linux/lib/random32.c",
+    "line_number": 262,
+    "line": "\tfor (i = 0; i < ARRAY_SIZE(test1); i++) {"
+  },
+  {
+    "path": "./linux/lib/random32.c",
+    "line_number": 265,
+    "line": "\t\tprandom_state_selftest_seed(&state, test1[i].seed);"
+  },
+  {
+    "path": "./linux/lib/random32.c",
+    "line_number": 268,
+    "line": "\t\tif (test1[i].result != prandom_u32_state(&state))"
+  },
+  {
+    "path": "./linux/lib/zstd/compress/zstd_fast.c",
+    "line_number": 115,
+    "line": "    /* Note: this used to be written as : return test1 && test2;"
+  },
+  {
+    "path": "./linux/lib/zstd/compress/zstd_fast.c",
+    "line_number": 117,
+    "line": "     * in which case it becomes critical that they are executed in the right order (test1 then test2)."
+  },
+  {
+    "path": "./linux/net/bpf/test_run.c",
+    "line_number": 510,
+    "line": "__bpf_kfunc int bpf_fentry_test1(int a)"
+  },
+  {
+    "path": "./linux/net/bpf/test_run.c",
+    "line_number": 514,
+    "line": "EXPORT_SYMBOL_GPL(bpf_fentry_test1);"
+  },
+  {
+    "path": "./linux/net/bpf/test_run.c",
+    "line_number": 561,
+    "line": "noinline int bpf_fentry_test10(const void *a)"
+  },
+  {
+    "path": "./linux/net/bpf/test_run.c",
+    "line_number": 638,
+    "line": "BTF_ID_FLAGS(func, bpf_fentry_test1, KF_SLEEPABLE)"
+  },
+  {
+    "path": "./linux/net/bpf/test_run.c",
+    "line_number": 688,
+    "line": "\t\tif (bpf_fentry_test1(1) != 2 ||"
+  },
+  {
+    "path": "./linux/net/bpf/test_run.c",
+    "line_number": 697,
+    "line": "\t\t    bpf_fentry_test10((void *)0) != 0)"
+  },
+  {
+    "path": "./linux/net/handshake/handshake-test.c",
+    "line_number": 146,
+    "line": "static void handshake_req_submit_test1(struct kunit *test)"
+  },
+  {
+    "path": "./linux/net/handshake/handshake-test.c",
+    "line_number": 312,
+    "line": "static void handshake_req_cancel_test1(struct kunit *test)"
+  },
+  {
+    "path": "./linux/net/handshake/handshake-test.c",
+    "line_number": 447,
+    "line": "static void handshake_req_destroy_test1(struct kunit *test)"
+  },
+  {
+    "path": "./linux/net/handshake/handshake-test.c",
+    "line_number": 491,
+    "line": "\t\t.run_case\t\t= handshake_req_submit_test1,"
+  },
+  {
+    "path": "./linux/net/handshake/handshake-test.c",
+    "line_number": 515,
+    "line": "\t\t.run_case\t\t= handshake_req_cancel_test1,"
+  },
+  {
+    "path": "./linux/net/handshake/handshake-test.c",
+    "line_number": 527,
+    "line": "\t\t.run_case\t\t= handshake_req_destroy_test1,"
+  },
+  {
+    "path": "./linux/net/sunrpc/auth_gss/gss_krb5_test.c",
+    "line_number": 144,
+    "line": "DEFINE_HEX_XDR_NETOBJ(nfold_test1_plaintext,"
+  },
+  {
+    "path": "./linux/net/sunrpc/auth_gss/gss_krb5_test.c",
+    "line_number": 147,
+    "line": "DEFINE_HEX_XDR_NETOBJ(nfold_test1_expected_result,"
+  },
+  {
+    "path": "./linux/net/sunrpc/auth_gss/gss_krb5_test.c",
+    "line_number": 219,
+    "line": "DEFINE_HEX_XDR_NETOBJ(nfold_test10_expected_result,"
+  },
+  {
+    "path": "./linux/net/sunrpc/auth_gss/gss_krb5_test.c",
+    "line_number": 224,
+    "line": "DEFINE_HEX_XDR_NETOBJ(nfold_test11_expected_result,"
+  },
+  {
+    "path": "./linux/net/sunrpc/auth_gss/gss_krb5_test.c",
+    "line_number": 235,
+    "line": "\t\t.plaintext\t\t= &nfold_test1_plaintext,"
+  },
+  {
+    "path": "./linux/net/sunrpc/auth_gss/gss_krb5_test.c",
+    "line_number": 236,
+    "line": "\t\t.expected_result\t= &nfold_test1_expected_result,"
+  },
+  {
+    "path": "./linux/net/sunrpc/auth_gss/gss_krb5_test.c",
+    "line_number": 290,
+    "line": "\t\t.expected_result\t= &nfold_test10_expected_result,"
+  },
+  {
+    "path": "./linux/net/sunrpc/auth_gss/gss_krb5_test.c",
+    "line_number": 296,
+    "line": "\t\t.expected_result\t= &nfold_test11_expected_result,"
+  },
+  {
+    "path": "./linux/net/sunrpc/auth_gss/gss_krb5_test.c",
+    "line_number": 351,
+    "line": "DEFINE_HEX_XDR_NETOBJ(rfc3962_enc_test1_plaintext,"
+  },
+  {
+    "path": "./linux/net/sunrpc/auth_gss/gss_krb5_test.c",
+    "line_number": 356,
+    "line": "DEFINE_HEX_XDR_NETOBJ(rfc3962_enc_test1_expected_result,"
+  },
+  {
+    "path": "./linux/net/sunrpc/auth_gss/gss_krb5_test.c",
+    "line_number": 361,
+    "line": "DEFINE_HEX_XDR_NETOBJ(rfc3962_enc_test1_next_iv,"
+  },
+  {
+    "path": "./linux/net/sunrpc/auth_gss/gss_krb5_test.c",
+    "line_number": 472,
+    "line": "\t\t.plaintext\t\t= &rfc3962_enc_test1_plaintext,"
+  },
+  {
+    "path": "./linux/net/sunrpc/auth_gss/gss_krb5_test.c",
+    "line_number": 473,
+    "line": "\t\t.expected_result\t= &rfc3962_enc_test1_expected_result,"
+  },
+  {
+    "path": "./linux/net/sunrpc/auth_gss/gss_krb5_test.c",
+    "line_number": 474,
+    "line": "\t\t.next_iv\t\t= &rfc3962_enc_test1_next_iv,"
+  },
+  {
+    "path": "./linux/net/sunrpc/auth_gss/gss_krb5_test.c",
+    "line_number": 718,
+    "line": "DEFINE_STR_XDR_NETOBJ(rfc6803_checksum_test1_plaintext,"
+  },
+  {
+    "path": "./linux/net/sunrpc/auth_gss/gss_krb5_test.c",
+    "line_number": 720,
+    "line": "DEFINE_HEX_XDR_NETOBJ(rfc6803_checksum_test1_basekey,"
+  },
+  {
+    "path": "./linux/net/sunrpc/auth_gss/gss_krb5_test.c",
+    "line_number": 724,
+    "line": "DEFINE_HEX_XDR_NETOBJ(rfc6803_checksum_test1_usage,"
+  },
+  {
+    "path": "./linux/net/sunrpc/auth_gss/gss_krb5_test.c",
+    "line_number": 727,
+    "line": "DEFINE_HEX_XDR_NETOBJ(rfc6803_checksum_test1_expected_result,"
+  },
+  {
+    "path": "./linux/net/sunrpc/auth_gss/gss_krb5_test.c",
+    "line_number": 782,
+    "line": "\t\t.base_key\t\t= &rfc6803_checksum_test1_basekey,"
+  },
+  {
+    "path": "./linux/net/sunrpc/auth_gss/gss_krb5_test.c",
+    "line_number": 783,
+    "line": "\t\t.usage\t\t\t= &rfc6803_checksum_test1_usage,"
+  },
+  {
+    "path": "./linux/net/sunrpc/auth_gss/gss_krb5_test.c",
+    "line_number": 784,
+    "line": "\t\t.plaintext\t\t= &rfc6803_checksum_test1_plaintext,"
+  },
+  {
+    "path": "./linux/net/sunrpc/auth_gss/gss_krb5_test.c",
+    "line_number": 785,
+    "line": "\t\t.expected_result\t= &rfc6803_checksum_test1_expected_result,"
+  },
+  {
+    "path": "./linux/net/sunrpc/auth_gss/gss_krb5_test.c",
+    "line_number": 839,
+    "line": "DEFINE_HEX_XDR_NETOBJ(rfc6803_enc_test1_confounder,"
+  },
+  {
+    "path": "./linux/net/sunrpc/auth_gss/gss_krb5_test.c",
+    "line_number": 843,
+    "line": "DEFINE_HEX_XDR_NETOBJ(rfc6803_enc_test1_basekey,"
+  },
+  {
+    "path": "./linux/net/sunrpc/auth_gss/gss_krb5_test.c",
+    "line_number": 847,
+    "line": "DEFINE_HEX_XDR_NETOBJ(rfc6803_enc_test1_expected_result,"
+  },
+  {
+    "path": "./linux/net/sunrpc/auth_gss/gss_krb5_test.c",
+    "line_number": 996,
+    "line": "DEFINE_HEX_XDR_NETOBJ(rfc6803_enc_test10_confounder,"
+  },
+  {
+    "path": "./linux/net/sunrpc/auth_gss/gss_krb5_test.c",
+    "line_number": 1000,
+    "line": "DEFINE_HEX_XDR_NETOBJ(rfc6803_enc_test10_basekey,"
+  },
+  {
+    "path": "./linux/net/sunrpc/auth_gss/gss_krb5_test.c",
+    "line_number": 1006,
+    "line": "DEFINE_HEX_XDR_NETOBJ(rfc6803_enc_test10_expected_result,"
+  },
+  {
+    "path": "./linux/net/sunrpc/auth_gss/gss_krb5_test.c",
+    "line_number": 1022,
+    "line": "\t\t.base_key\t\t= &rfc6803_enc_test1_basekey,"
+  },
+  {
+    "path": "./linux/net/sunrpc/auth_gss/gss_krb5_test.c",
+    "line_number": 1024,
+    "line": "\t\t.confounder\t\t= &rfc6803_enc_test1_confounder,"
+  },
+  {
+    "path": "./linux/net/sunrpc/auth_gss/gss_krb5_test.c",
+    "line_number": 1025,
+    "line": "\t\t.expected_result\t= &rfc6803_enc_test1_expected_result,"
+  },
+  {
+    "path": "./linux/net/sunrpc/auth_gss/gss_krb5_test.c",
+    "line_number": 1103,
+    "line": "\t\t.base_key\t\t= &rfc6803_enc_test10_basekey,"
+  },
+  {
+    "path": "./linux/net/sunrpc/auth_gss/gss_krb5_test.c",
+    "line_number": 1105,
+    "line": "\t\t.confounder\t\t= &rfc6803_enc_test10_confounder,"
+  },
+  {
+    "path": "./linux/net/sunrpc/auth_gss/gss_krb5_test.c",
+    "line_number": 1106,
+    "line": "\t\t.expected_result\t= &rfc6803_enc_test10_expected_result,"
+  },
+  {
+    "path": "./linux/net/sunrpc/auth_gss/gss_krb5_test.c",
+    "line_number": 1348,
+    "line": "DEFINE_HEX_XDR_NETOBJ(rfc8009_checksum_test1_expected_result,"
+  },
+  {
+    "path": "./linux/net/sunrpc/auth_gss/gss_krb5_test.c",
+    "line_number": 1365,
+    "line": "\t\t.expected_result\t= &rfc8009_checksum_test1_expected_result,"
+  },
+  {
+    "path": "./linux/net/sunrpc/auth_gss/gss_krb5_test.c",
+    "line_number": 1410,
+    "line": "DEFINE_HEX_XDR_NETOBJ(rfc8009_enc_test1_confounder,"
+  },
+  {
+    "path": "./linux/net/sunrpc/auth_gss/gss_krb5_test.c",
+    "line_number": 1414,
+    "line": "DEFINE_HEX_XDR_NETOBJ(rfc8009_enc_test1_expected_result,"
+  },
+  {
+    "path": "./linux/net/sunrpc/auth_gss/gss_krb5_test.c",
+    "line_number": 1418,
+    "line": "DEFINE_HEX_XDR_NETOBJ(rfc8009_enc_test1_expected_hmac,"
+  },
+  {
+    "path": "./linux/net/sunrpc/auth_gss/gss_krb5_test.c",
+    "line_number": 1535,
+    "line": "\t\t.confounder\t\t= &rfc8009_enc_test1_confounder,"
+  },
+  {
+    "path": "./linux/net/sunrpc/auth_gss/gss_krb5_test.c",
+    "line_number": 1537,
+    "line": "\t\t.expected_result\t= &rfc8009_enc_test1_expected_result,"
+  },
+  {
+    "path": "./linux/net/sunrpc/auth_gss/gss_krb5_test.c",
+    "line_number": 1538,
+    "line": "\t\t.expected_hmac\t\t= &rfc8009_enc_test1_expected_hmac,"
+  },
+  {
+    "path": "./linux/sound/isa/sb/sb16_csp.c",
+    "line_number": 542,
+    "line": "\tunsigned char csp_test1, csp_test2;"
+  },
+  {
+    "path": "./linux/sound/isa/sb/sb16_csp.c",
+    "line_number": 549,
+    "line": "\tcsp_test1 = read_register(chip, 0x83);"
+  },
+  {
+    "path": "./linux/sound/isa/sb/sb16_csp.c",
+    "line_number": 550,
+    "line": "\tset_register(chip, 0x83, ~csp_test1);"
+  },
+  {
+    "path": "./linux/sound/isa/sb/sb16_csp.c",
+    "line_number": 552,
+    "line": "\tif (csp_test2 != (csp_test1 ^ 0xff))"
+  },
+  {
+    "path": "./linux/sound/isa/sb/sb16_csp.c",
+    "line_number": 555,
+    "line": "\tset_register(chip, 0x83, csp_test1);"
+  },
+  {
+    "path": "./linux/sound/isa/sb/sb16_csp.c",
+    "line_number": 557,
+    "line": "\tif (csp_test2 != csp_test1)"
+  },
+  {
+    "path": "./linux/tools/perf/tests/hists_cumulate.c",
+    "line_number": 263,
+    "line": "static int test1(struct evsel *evsel, struct machine *machine)"
+  },
+  {
+    "path": "./linux/tools/perf/tests/hists_cumulate.c",
+    "line_number": 714,
+    "line": "\t\ttest1,"
+  },
+  {
+    "path": "./linux/tools/perf/tests/hists_output.c",
+    "line_number": 138,
+    "line": "static int test1(struct evsel *evsel, struct machine *machine)"
+  },
+  {
+    "path": "./linux/tools/perf/tests/hists_output.c",
+    "line_number": 600,
+    "line": "\t\ttest1,"
+  },
+  {
+    "path": "./linux/tools/testing/ktest/sample.conf",
+    "line_number": 54,
+    "line": "# MIN_CONFIG = /home/test/config-test1"
+  },
+  {
+    "path": "./linux/tools/testing/kunit/kunit_tool_test.py",
+    "line_number": 305,
+    "line": "\t\t\tnot ok 1 - test1"
+  },
+  {
+    "path": "./linux/tools/testing/kunit/kunit_tool_test.py",
+    "line_number": 310,
+    "line": "\t\t\tok 1 - test1"
+  },
+  {
+    "path": "./linux/tools/testing/kunit/kunit_tool_test.py",
+    "line_number": 357,
+    "line": "\t\tnot ok 1 test1"
+  },
+  {
+    "path": "./linux/tools/testing/kunit/kunit_tool_test.py",
+    "line_number": 364,
+    "line": "\t\tself.noPrintCallContains('not ok 1 test1')"
+  },
+  {
+    "path": "./linux/tools/testing/kunit/kunit_tool_test.py",
+    "line_number": 821,
+    "line": "\t\twant = ['suite.test1', 'suite.test2', 'suite2.test1']"
+  },
+  {
+    "path": "./linux/tools/testing/kunit/kunit_tool_test.py",
+    "line_number": 833,
+    "line": "\t\tmock_tests.return_value = ['suite.test1', 'suite.test2', 'suite2.test1']"
+  },
+  {
+    "path": "./linux/tools/testing/kunit/kunit_tool_test.py",
+    "line_number": 846,
+    "line": "\t\tmock_tests.return_value = ['suite.test1', 'suite.test2', 'suite2.test1']"
+  },
+  {
+    "path": "./linux/tools/testing/kunit/kunit_tool_test.py",
+    "line_number": 853,
+    "line": "\t\t\tmock.call(args=None, build_dir='.kunit', filter_glob='suite.test1', filter='', filter_action=None, timeout=300),"
+  },
+  {
+    "path": "./linux/tools/testing/kunit/kunit_tool_test.py",
+    "line_number": 855,
+    "line": "\t\t\tmock.call(args=None, build_dir='.kunit', filter_glob='suite2.test1', filter='', filter_action=None, timeout=300),"
+  },
+  {
+    "path": "./linux/tools/testing/nvdimm/test/nfit.c",
+    "line_number": 1945,
+    "line": "static int nfit_test1_alloc(struct nfit_test *t)"
+  },
+  {
+    "path": "./linux/tools/testing/nvdimm/test/nfit.c",
+    "line_number": 2737,
+    "line": "static void nfit_test1_setup(struct nfit_test *t)"
+  },
+  {
+    "path": "./linux/tools/testing/nvdimm/test/nfit.c",
+    "line_number": 3319,
+    "line": "\t\t\tnfit_test->alloc = nfit_test1_alloc;"
+  },
+  {
+    "path": "./linux/tools/testing/nvdimm/test/nfit.c",
+    "line_number": 3320,
+    "line": "\t\t\tnfit_test->setup = nfit_test1_setup;"
+  },
+  {
+    "path": "./linux/tools/testing/radix-tree/idr-test.c",
+    "line_number": 180,
+    "line": "void idr_u32_test1(struct idr *idr, u32 handle)"
+  },
+  {
+    "path": "./linux/tools/testing/radix-tree/idr-test.c",
+    "line_number": 214,
+    "line": "\tidr_u32_test1(&idr, 10);"
+  },
+  {
+    "path": "./linux/tools/testing/radix-tree/idr-test.c",
+    "line_number": 215,
+    "line": "\tidr_u32_test1(&idr, 0x7fffffff);"
+  },
+  {
+    "path": "./linux/tools/testing/radix-tree/idr-test.c",
+    "line_number": 216,
+    "line": "\tidr_u32_test1(&idr, 0x80000000);"
+  },
+  {
+    "path": "./linux/tools/testing/radix-tree/idr-test.c",
+    "line_number": 217,
+    "line": "\tidr_u32_test1(&idr, 0x80000001);"
+  },
+  {
+    "path": "./linux/tools/testing/radix-tree/idr-test.c",
+    "line_number": 218,
+    "line": "\tidr_u32_test1(&idr, 0xffe00000);"
+  },
+  {
+    "path": "./linux/tools/testing/radix-tree/idr-test.c",
+    "line_number": 219,
+    "line": "\tidr_u32_test1(&idr, 0xffffffff);"
+  },
+  {
+    "path": "./linux/tools/testing/selftests/bpf/prog_tests/arg_parsing.c",
+    "line_number": 101,
+    "line": "\tASSERT_OK(parse_test_list(\"t/subtest1,t/subtest2\", &set, true),"
+  },
+  {
+    "path": "./linux/tools/testing/selftests/bpf/prog_tests/arg_parsing.c",
+    "line_number": 110,
+    "line": "\tASSERT_OK(strcmp(\"subtest1\", set.tests[0].subtests[0]), \"subtest name\");"
+  },
+  {
+    "path": "./linux/tools/testing/selftests/bpf/prog_tests/attach_probe.c",
+    "line_number": 217,
+    "line": "\t\t\t\t\t     \"bpf_fentry_test1\", NULL);"
+  },
+  {
+    "path": "./linux/tools/testing/selftests/bpf/prog_tests/bpf_cookie.c",
+    "line_number": 81,
+    "line": "\tASSERT_EQ(skel->bss->kprobe_test1_result, 1, \"kprobe_test1_result\");"
+  },
+  {
+    "path": "./linux/tools/testing/selftests/bpf/prog_tests/bpf_cookie.c",
+    "line_number": 90,
+    "line": "\tASSERT_EQ(skel->bss->kretprobe_test1_result, 1, \"kretprobe_test1_result\");"
+  },
+  {
+    "path": "./linux/tools/testing/selftests/bpf/prog_tests/bpf_cookie.c",
+    "line_number": 124,
+    "line": "\tGET_ADDR(\"bpf_fentry_test1\", addrs[0]);"
+  },
+  {
+    "path": "./linux/tools/testing/selftests/bpf/prog_tests/bpf_cookie.c",
+    "line_number": 135,
+    "line": "\tcookies[0] = 1; /* bpf_fentry_test1 */"
+  },
+  {
+    "path": "./linux/tools/testing/selftests/bpf/prog_tests/bpf_cookie.c",
+    "line_number": 153,
+    "line": "\tcookies[0] = 8; /* bpf_fentry_test1 */"
+  },
+  {
+    "path": "./linux/tools/testing/selftests/bpf/prog_tests/bpf_cookie.c",
+    "line_number": 184,
+    "line": "\t\t\"bpf_fentry_test1\","
+  },
+  {
+    "path": "./linux/tools/testing/selftests/bpf/prog_tests/bpf_cookie.c",
+    "line_number": 202,
+    "line": "\tcookies[0] = 1; /* bpf_fentry_test1 */"
+  },
+  {
+    "path": "./linux/tools/testing/selftests/bpf/prog_tests/bpf_cookie.c",
+    "line_number": 220,
+    "line": "\tcookies[0] = 8; /* bpf_fentry_test1 */"
+  },
+  {
+    "path": "./linux/tools/testing/selftests/bpf/prog_tests/bpf_cookie.c",
+    "line_number": 521,
+    "line": "\tprog_fd = bpf_program__fd(skel->progs.fentry_test1);"
+  },
+  {
+    "path": "./linux/tools/testing/selftests/bpf/prog_tests/bpf_cookie.c",
+    "line_number": 532,
+    "line": "\tprog_fd = bpf_program__fd(skel->progs.fexit_test1);"
+  },
+  {
+    "path": "./linux/tools/testing/selftests/bpf/prog_tests/bpf_cookie.c",
+    "line_number": 545,
+    "line": "\tprog_fd = bpf_program__fd(skel->progs.fentry_test1);"
+  },
+  {
+    "path": "./linux/tools/testing/selftests/bpf/prog_tests/bpf_iter.c",
+    "line_number": 669,
+    "line": "\tconst char *path = \"/sys/fs/bpf/bpf_iter_test1\";"
+  },
+  {
+    "path": "./linux/tools/testing/selftests/bpf/prog_tests/btf.c",
+    "line_number": 135,
+    "line": "\t.map_name = \"struct_test1_map\","
+  },
+  {
+    "path": "./linux/tools/testing/selftests/bpf/prog_tests/btf.c",
+    "line_number": 256,
+    "line": "\t.map_name = \"struct_test1_map\","
+  },
+  {
+    "path": "./linux/tools/testing/selftests/bpf/prog_tests/btf.c",
+    "line_number": 1120,
+    "line": "\t.map_name = \"void_test1_map\","
+  },
+  {
+    "path": "./linux/tools/testing/selftests/bpf/prog_tests/btf.c",
+    "line_number": 1234,
+    "line": "\t.map_name = \"loop_test1_map\","
+  },
+  {
+    "path": "./linux/tools/testing/selftests/bpf/prog_tests/cgroup1_hierarchy.c",
+    "line_number": 81,
+    "line": "\terr = bpf_program__set_attach_target(skel->progs.fentry_run, 0, \"bpf_fentry_test1\");"
+  },
+  {
+    "path": "./linux/tools/testing/selftests/bpf/prog_tests/crypto_sanity.c",
+    "line_number": 16,
+    "line": "static const unsigned char crypto_key[] = \"testtest12345678\";"
+  },
+  {
+    "path": "./linux/tools/testing/selftests/bpf/prog_tests/fentry_fexit.c",
+    "line_number": 40,
+    "line": "\tprog_fd = fexit_skel->progs.test1.prog_fd;"
+  },
+  {
+    "path": "./linux/tools/testing/selftests/bpf/prog_tests/fentry_fexit.c",
+    "line_number": 47,
+    "line": "\tprintf(\"%lld\\n\", fentry_skel->bss->test1_result);"
+  },
+  {
+    "path": "./linux/tools/testing/selftests/bpf/prog_tests/fentry_test.c",
+    "line_number": 19,
+    "line": "\tlink_fd = fentry_test_lskel__test1__attach(fentry_skel);"
+  },
+  {
+    "path": "./linux/tools/testing/selftests/bpf/prog_tests/fentry_test.c",
+    "line_number": 23,
+    "line": "\tprog_fd = fentry_skel->progs.test1.prog_fd;"
+  },
+  {
+    "path": "./linux/tools/testing/selftests/bpf/prog_tests/fentry_test.c",
+    "line_number": 81,
+    "line": "\tASSERT_EQ(fentry_skel->bss->test1_result, 1,"
+  },
+  {
+    "path": "./linux/tools/testing/selftests/bpf/prog_tests/fexit_stress.c",
+    "line_number": 31,
+    "line": "\terr = libbpf_find_vmlinux_btf_id(\"bpf_fentry_test1\","
+  },
+  {
+    "path": "./linux/tools/testing/selftests/bpf/prog_tests/fexit_test.c",
+    "line_number": 19,
+    "line": "\tlink_fd = fexit_test_lskel__test1__attach(fexit_skel);"
+  },
+  {
+    "path": "./linux/tools/testing/selftests/bpf/prog_tests/fexit_test.c",
+    "line_number": 23,
+    "line": "\tprog_fd = fexit_skel->progs.test1.prog_fd;"
+  },
+  {
+    "path": "./linux/tools/testing/selftests/bpf/prog_tests/fexit_test.c",
+    "line_number": 81,
+    "line": "\tASSERT_EQ(fexit_skel->bss->test1_result, 1,"
+  },
+  {
+    "path": "./linux/tools/testing/selftests/bpf/prog_tests/fill_link_info.c",
+    "line_number": 17,
+    "line": "\t\"bpf_fentry_test1\","
+  },
+  {
+    "path": "./linux/tools/testing/selftests/bpf/prog_tests/fill_link_info.c",
+    "line_number": 24,
+    "line": "#define KPROBE_FUNC \"bpf_fentry_test1\""
+  },
+  {
+    "path": "./linux/tools/testing/selftests/bpf/prog_tests/get_branch_snapshot.c",
+    "line_number": 117,
+    "line": "\tASSERT_GT(skel->bss->test1_hits, 6, \"find_looptest_in_lbr\");"
+  },
+  {
+    "path": "./linux/tools/testing/selftests/bpf/prog_tests/get_func_args_test.c",
+    "line_number": 22,
+    "line": "\tprog_fd = bpf_program__fd(skel->progs.test1);"
+  },
+  {
+    "path": "./linux/tools/testing/selftests/bpf/prog_tests/get_func_args_test.c",
+    "line_number": 37,
+    "line": "\tASSERT_EQ(skel->bss->test1_result, 1, \"test1_result\");"
+  },
+  {
+    "path": "./linux/tools/testing/selftests/bpf/prog_tests/get_func_ip_test.c",
+    "line_number": 30,
+    "line": "\tprog_fd = bpf_program__fd(skel->progs.test1);"
+  },
+  {
+    "path": "./linux/tools/testing/selftests/bpf/prog_tests/get_func_ip_test.c",
+    "line_number": 42,
+    "line": "\tASSERT_EQ(skel->bss->test1_result, 1, \"test1_result\");"
+  },
+  {
+    "path": "./linux/tools/testing/selftests/bpf/prog_tests/get_func_ip_test.c",
+    "line_number": 91,
+    "line": "\tprog_fd = bpf_program__fd(skel->progs.test1);"
+  },
+  {
+    "path": "./linux/tools/testing/selftests/bpf/prog_tests/get_func_ip_test.c",
+    "line_number": 120,
+    "line": "\tASSERT_EQ(skel->bss->test1_result, 1, \"test1_result\");"
+  },
+  {
+    "path": "./linux/tools/testing/selftests/bpf/prog_tests/kfunc_call.c",
+    "line_number": 74,
+    "line": "\tTC_TEST(kfunc_call_test1, 12),"
+  },
+  {
+    "path": "./linux/tools/testing/selftests/bpf/prog_tests/kfunc_call.c",
+    "line_number": 248,
+    "line": "\tprog_fd = bpf_program__fd(skel->progs.kfunc_call_test1);"
+  },
+  {
+    "path": "./linux/tools/testing/selftests/bpf/prog_tests/kfunc_call.c",
+    "line_number": 250,
+    "line": "\tASSERT_OK(err, \"bpf_prog_test_run(test1)\");"
+  },
+  {
+    "path": "./linux/tools/testing/selftests/bpf/prog_tests/kfunc_call.c",
+    "line_number": 251,
+    "line": "\tASSERT_EQ(topts.retval, 10, \"test1-retval\");"
+  },
+  {
+    "path": "./linux/tools/testing/selftests/bpf/prog_tests/kfunc_call.c",
+    "line_number": 272,
+    "line": "\tprog_fd = skel->progs.kfunc_call_test1.prog_fd;"
+  },
+  {
+    "path": "./linux/tools/testing/selftests/bpf/prog_tests/kfunc_call.c",
+    "line_number": 274,
+    "line": "\tASSERT_OK(err, \"bpf_prog_test_run(test1)\");"
+  },
+  {
+    "path": "./linux/tools/testing/selftests/bpf/prog_tests/kfunc_call.c",
+    "line_number": 275,
+    "line": "\tASSERT_EQ(topts.retval, 10, \"test1-retval\");"
+  },
+  {
+    "path": "./linux/tools/testing/selftests/bpf/prog_tests/kprobe_multi_test.c",
+    "line_number": 24,
+    "line": "\tASSERT_EQ(skel->bss->kprobe_test1_result, 1, \"kprobe_test1_result\");"
+  },
+  {
+    "path": "./linux/tools/testing/selftests/bpf/prog_tests/kprobe_multi_test.c",
+    "line_number": 34,
+    "line": "\t\tASSERT_EQ(skel->bss->kretprobe_test1_result, 1, \"kretprobe_test1_result\");"
+  },
+  {
+    "path": "./linux/tools/testing/selftests/bpf/prog_tests/kprobe_multi_test.c",
+    "line_number": 107,
+    "line": "\tGET_ADDR(\"bpf_fentry_test1\", addrs[0]);"
+  },
+  {
+    "path": "./linux/tools/testing/selftests/bpf/prog_tests/kprobe_multi_test.c",
+    "line_number": 125,
+    "line": "\t\t\"bpf_fentry_test1\","
+  },
+  {
+    "path": "./linux/tools/testing/selftests/bpf/prog_tests/kprobe_multi_test.c",
+    "line_number": 185,
+    "line": "\tGET_ADDR(\"bpf_fentry_test1\", addrs[0]);"
+  },
+  {
+    "path": "./linux/tools/testing/selftests/bpf/prog_tests/kprobe_multi_test.c",
+    "line_number": 203,
+    "line": "\t\t\"bpf_fentry_test1\","
+  },
+  {
+    "path": "./linux/tools/testing/selftests/bpf/prog_tests/kprobe_multi_test.c",
+    "line_number": 225,
+    "line": "\t\t\"bpf_fentry_test1\","
+  },
+  {
+    "path": "./linux/tools/testing/selftests/bpf/prog_tests/kprobe_multi_test.c",
+    "line_number": 231,
+    "line": "\taddrs[0] = ksym_get_addr(\"bpf_fentry_test1\");"
+  },
+  {
+    "path": "./linux/tools/testing/selftests/bpf/prog_tests/kprobe_multi_test.c",
+    "line_number": 356,
+    "line": "\t/* bpf_fentry_test1-4 trigger return probe, result is 2 */"
+  },
+  {
+    "path": "./linux/tools/testing/selftests/bpf/prog_tests/kprobe_multi_test.c",
+    "line_number": 519,
+    "line": "\t * to attach to bpf_fentry_test1 function, which is not on error"
+  },
+  {
+    "path": "./linux/tools/testing/selftests/bpf/prog_tests/kprobe_multi_test.c",
+    "line_number": 523,
+    "line": "\t\t\t\t\t\t     \"bpf_fentry_test1\", NULL);"
+  },
+  {
+    "path": "./linux/tools/testing/selftests/bpf/prog_tests/kprobe_multi_test.c",
+    "line_number": 524,
+    "line": "\tif (!ASSERT_ERR_PTR(link, \"override_attached_bpf_fentry_test1\")) {"
+  },
+  {
+    "path": "./linux/tools/testing/selftests/bpf/prog_tests/kprobe_multi_test.c",
+    "line_number": 554,
+    "line": "\t\t\t\t\t\t     \"bpf_fentry_test1\", NULL);"
+  },
+  {
+    "path": "./linux/tools/testing/selftests/bpf/prog_tests/kprobe_multi_testmod_test.c",
+    "line_number": 11,
+    "line": "\tASSERT_EQ(skel->bss->kprobe_testmod_test1_result, 1, \"kprobe_test1_result\");"
+  },
+  {
+    "path": "./linux/tools/testing/selftests/bpf/prog_tests/kprobe_multi_testmod_test.c",
+    "line_number": 15,
+    "line": "\tASSERT_EQ(skel->bss->kretprobe_testmod_test1_result, 1, \"kretprobe_test1_result\");"
+  },
+  {
+    "path": "./linux/tools/testing/selftests/bpf/prog_tests/kprobe_multi_testmod_test.c",
+    "line_number": 55,
+    "line": "\taddrs[0] = ksym_get_addr_local(ksyms, \"bpf_testmod_fentry_test1\");"
+  },
+  {
+    "path": "./linux/tools/testing/selftests/bpf/prog_tests/kprobe_multi_testmod_test.c",
+    "line_number": 72,
+    "line": "\t\t\"bpf_testmod_fentry_test1\","
+  },
+  {
+    "path": "./linux/tools/testing/selftests/bpf/prog_tests/missed.c",
+    "line_number": 8,
+    "line": " * Putting kprobe on bpf_fentry_test1 that calls bpf_kfunc_common_test"
+  },
+  {
+    "path": "./linux/tools/testing/selftests/bpf/prog_tests/missed.c",
+    "line_number": 58,
+    "line": " * Putting kprobe.multi on bpf_fentry_test1 that calls bpf_kfunc_common_test"
+  },
+  {
+    "path": "./linux/tools/testing/selftests/bpf/prog_tests/missed.c",
+    "line_number": 83,
+    "line": "\tASSERT_EQ(get_missed_count(bpf_program__fd(skel->progs.test1)), 0, \"test1_recursion_misses\");"
+  },
+  {
+    "path": "./linux/tools/testing/selftests/bpf/prog_tests/missed.c",
+    "line_number": 95,
+    "line": " * Putting kprobe on bpf_fentry_test1 that calls bpf_printk and invokes"
+  },
+  {
+    "path": "./linux/tools/testing/selftests/bpf/prog_tests/missed.c",
+    "line_number": 122,
+    "line": "\tASSERT_EQ(get_missed_count(bpf_program__fd(skel->progs.test1)), 0, \"test1_recursion_misses\");"
+  },
+  {
+    "path": "./linux/tools/testing/selftests/bpf/prog_tests/recursive_attach.c",
+    "line_number": 58,
+    "line": "\t\t\tprev_fd = bpf_program__fd(target_skel->progs.test1);"
+  },
+  {
+    "path": "./linux/tools/testing/selftests/bpf/prog_tests/recursive_attach.c",
+    "line_number": 59,
+    "line": "\t\t\terr = bpf_program__set_attach_target(prog, prev_fd, \"test1\");"
+  },
+  {
+    "path": "./linux/tools/testing/selftests/bpf/prog_tests/setget_sockopt.c",
+    "line_number": 31,
+    "line": "\tif (!ASSERT_OK(system(\"ip link add dev binddevtest1 type veth peer name binddevtest2\"),"
+  },
+  {
+    "path": "./linux/tools/testing/selftests/bpf/prog_tests/setget_sockopt.c",
+    "line_number": 35,
+    "line": "\tif (!ASSERT_OK(system(\"ip link set dev binddevtest1 up\"),"
+  },
+  {
+    "path": "./linux/tools/testing/selftests/bpf/prog_tests/setget_sockopt.c",
+    "line_number": 215,
+    "line": "\tstrcpy(skel->rodata->veth, \"binddevtest1\");"
+  },
+  {
+    "path": "./linux/tools/testing/selftests/bpf/prog_tests/setget_sockopt.c",
+    "line_number": 216,
+    "line": "\tskel->rodata->veth_ifindex = if_nametoindex(\"binddevtest1\");"
+  },
+  {
+    "path": "./linux/tools/testing/selftests/bpf/prog_tests/timer.c",
+    "line_number": 40,
+    "line": "\tprog_fd = bpf_program__fd(timer_skel->progs.test1);"
+  },
+  {
+    "path": "./linux/tools/testing/selftests/bpf/prog_tests/timer_mim.c",
+    "line_number": 17,
+    "line": "\tprog_fd = bpf_program__fd(timer_skel->progs.test1);"
+  },
+  {
+    "path": "./linux/tools/testing/selftests/bpf/prog_tests/uprobe.c",
+    "line_number": 87,
+    "line": "\tASSERT_EQ(skel->bss->test1_result, 1, \"urandlib_api_sameoffset\");"
+  },
+  {
+    "path": "./linux/tools/testing/selftests/bpf/progs/atomic_bounds.c",
+    "line_number": 13,
+    "line": "SEC(\"fentry/bpf_fentry_test1\")"
+  },
+  {
+    "path": "./linux/tools/testing/selftests/bpf/progs/bpf_mod_race.c",
+    "line_number": 70,
+    "line": "SEC(\"fmod_ret.s/bpf_fentry_test1\")"
+  },
+  {
+    "path": "./linux/tools/testing/selftests/bpf/progs/btf_type_tag.c",
+    "line_number": 21,
+    "line": "SEC(\"fentry/bpf_fentry_test1\")"
+  },
+  {
+    "path": "./linux/tools/testing/selftests/bpf/progs/fentry_many_args.c",
+    "line_number": 9,
+    "line": "__u64 test1_result = 0;"
+  },
+  {
+    "path": "./linux/tools/testing/selftests/bpf/progs/fentry_many_args.c",
+    "line_number": 11,
+    "line": "int BPF_PROG(test1, __u64 a, void *b, short c, int d, void *e, char f,"
+  },
+  {
+    "path": "./linux/tools/testing/selftests/bpf/progs/fentry_many_args.c",
+    "line_number": 14,
+    "line": "\ttest1_result = a == 16 && b == (void *)17 && c == 18 && d == 19 &&"
+  },
+  {
+    "path": "./linux/tools/testing/selftests/bpf/progs/fentry_many_args.c",
+    "line_number": 20,
+    "line": "SEC(\"fentry/bpf_testmod_fentry_test11\")"
+  },
+  {
+    "path": "./linux/tools/testing/selftests/bpf/progs/fentry_many_args.c",
+    "line_number": 31,
+    "line": "SEC(\"fentry/bpf_testmod_fentry_test11\")"
+  },
+  {
+    "path": "./linux/tools/testing/selftests/bpf/progs/fentry_recursive_target.c",
+    "line_number": 12,
+    "line": "SEC(\"fentry/bpf_testmod_fentry_test1\")"
+  },
+  {
+    "path": "./linux/tools/testing/selftests/bpf/progs/fentry_recursive_target.c",
+    "line_number": 13,
+    "line": "int BPF_PROG(test1, int a)"
+  },
+  {
+    "path": "./linux/tools/testing/selftests/bpf/progs/fentry_test.c",
+    "line_number": 9,
+    "line": "__u64 test1_result = 0;"
+  },
+  {
+    "path": "./linux/tools/testing/selftests/bpf/progs/fentry_test.c",
+    "line_number": 10,
+    "line": "SEC(\"fentry/bpf_fentry_test1\")"
+  },
+  {
+    "path": "./linux/tools/testing/selftests/bpf/progs/fentry_test.c",
+    "line_number": 11,
+    "line": "int BPF_PROG(test1, int a)"
+  },
+  {
+    "path": "./linux/tools/testing/selftests/bpf/progs/fentry_test.c",
+    "line_number": 13,
+    "line": "\ttest1_result = a == 1;"
+  },
+  {
+    "path": "./linux/tools/testing/selftests/bpf/progs/fexit_many_args.c",
+    "line_number": 9,
+    "line": "__u64 test1_result = 0;"
+  },
+  {
+    "path": "./linux/tools/testing/selftests/bpf/progs/fexit_many_args.c",
+    "line_number": 11,
+    "line": "int BPF_PROG(test1, __u64 a, void *b, short c, int d, void *e, char f,"
+  },
+  {
+    "path": "./linux/tools/testing/selftests/bpf/progs/fexit_many_args.c",
+    "line_number": 14,
+    "line": "\ttest1_result = a == 16 && b == (void *)17 && c == 18 && d == 19 &&"
+  },
+  {
+    "path": "./linux/tools/testing/selftests/bpf/progs/fexit_many_args.c",
+    "line_number": 20,
+    "line": "SEC(\"fexit/bpf_testmod_fentry_test11\")"
+  },
+  {
+    "path": "./linux/tools/testing/selftests/bpf/progs/fexit_many_args.c",
+    "line_number": 32,
+    "line": "SEC(\"fexit/bpf_testmod_fentry_test11\")"
+  },
+  {
+    "path": "./linux/tools/testing/selftests/bpf/progs/fexit_test.c",
+    "line_number": 9,
+    "line": "__u64 test1_result = 0;"
+  },
+  {
+    "path": "./linux/tools/testing/selftests/bpf/progs/fexit_test.c",
+    "line_number": 10,
+    "line": "SEC(\"fexit/bpf_fentry_test1\")"
+  },
+  {
+    "path": "./linux/tools/testing/selftests/bpf/progs/fexit_test.c",
+    "line_number": 11,
+    "line": "int BPF_PROG(test1, int a, int ret)"
+  },
+  {
+    "path": "./linux/tools/testing/selftests/bpf/progs/fexit_test.c",
+    "line_number": 13,
+    "line": "\ttest1_result = a == 1 && ret == 2;"
+  },
+  {
+    "path": "./linux/tools/testing/selftests/bpf/progs/get_branch_snapshot.c",
+    "line_number": 9,
+    "line": "__u64 test1_hits = 0;"
+  },
+  {
+    "path": "./linux/tools/testing/selftests/bpf/progs/get_branch_snapshot.c",
+    "line_number": 24,
+    "line": "int BPF_PROG(test1, int n, int ret)"
+  },
+  {
+    "path": "./linux/tools/testing/selftests/bpf/progs/get_branch_snapshot.c",
+    "line_number": 35,
+    "line": "\t\t\ttest1_hits++;"
+  },
+  {
+    "path": "./linux/tools/testing/selftests/bpf/progs/get_branch_snapshot.c",
+    "line_number": 36,
+    "line": "\t\telse if (!test1_hits)"
+  },
+  {
+    "path": "./linux/tools/testing/selftests/bpf/progs/get_func_args_test.c",
+    "line_number": 9,
+    "line": "__u64 test1_result = 0;"
+  },
+  {
+    "path": "./linux/tools/testing/selftests/bpf/progs/get_func_args_test.c",
+    "line_number": 10,
+    "line": "SEC(\"fentry/bpf_fentry_test1\")"
+  },
+  {
+    "path": "./linux/tools/testing/selftests/bpf/progs/get_func_args_test.c",
+    "line_number": 11,
+    "line": "int BPF_PROG(test1)"
+  },
+  {
+    "path": "./linux/tools/testing/selftests/bpf/progs/get_func_args_test.c",
+    "line_number": 17,
+    "line": "\ttest1_result = cnt == 1;"
+  },
+  {
+    "path": "./linux/tools/testing/selftests/bpf/progs/get_func_args_test.c",
+    "line_number": 30,
+    "line": "\ttest1_result &= err == 0 && ((int) a == 1);"
+  },
+  {
+    "path": "./linux/tools/testing/selftests/bpf/progs/get_func_args_test.c",
+    "line_number": 34,
+    "line": "\ttest1_result &= err == -EINVAL;"
+  },
+  {
+    "path": "./linux/tools/testing/selftests/bpf/progs/get_func_args_test.c",
+    "line_number": 38,
+    "line": "\ttest1_result &= err == -EOPNOTSUPP;"
+  },
+  {
+    "path": "./linux/tools/testing/selftests/bpf/progs/get_func_ip_test.c",
+    "line_number": 8,
+    "line": "extern int bpf_fentry_test1(int a) __ksym;"
+  },
+  {
+    "path": "./linux/tools/testing/selftests/bpf/progs/get_func_ip_test.c",
+    "line_number": 25,
+    "line": "__u64 test1_result = 0;"
+  },
+  {
+    "path": "./linux/tools/testing/selftests/bpf/progs/get_func_ip_test.c",
+    "line_number": 26,
+    "line": "SEC(\"fentry/bpf_fentry_test1\")"
+  },
+  {
+    "path": "./linux/tools/testing/selftests/bpf/progs/get_func_ip_test.c",
+    "line_number": 27,
+    "line": "int BPF_PROG(test1, int a)"
+  },
+  {
+    "path": "./linux/tools/testing/selftests/bpf/progs/get_func_ip_test.c",
+    "line_number": 31,
+    "line": "\ttest1_result = (const void *) addr == &bpf_fentry_test1;"
+  },
+  {
+    "path": "./linux/tools/testing/selftests/bpf/progs/get_func_ip_uprobe_test.c",
+    "line_number": 10,
+    "line": "__u64 test1_result = 0;"
+  },
+  {
+    "path": "./linux/tools/testing/selftests/bpf/progs/get_func_ip_uprobe_test.c",
+    "line_number": 12,
+    "line": "int BPF_UPROBE(test1)"
+  },
+  {
+    "path": "./linux/tools/testing/selftests/bpf/progs/get_func_ip_uprobe_test.c",
+    "line_number": 16,
+    "line": "\ttest1_result = (const void *) addr == (const void *) uprobe_trigger_body + 1;"
+  },
+  {
+    "path": "./linux/tools/testing/selftests/bpf/progs/kfunc_call_test.c",
+    "line_number": 40,
+    "line": "int kfunc_call_test1(struct __sk_buff *skb)"
+  },
+  {
+    "path": "./linux/tools/testing/selftests/bpf/progs/kfunc_call_test.c",
+    "line_number": 53,
+    "line": "\ta = bpf_kfunc_call_test1((struct sock *)sk, 1, a | 2, 3, a | 4);"
+  },
+  {
+    "path": "./linux/tools/testing/selftests/bpf/progs/kfunc_call_test_subprog.c",
+    "line_number": 28,
+    "line": "\treturn (__u32)bpf_kfunc_call_test1((struct sock *)sk, 1, 2, 3, 4);"
+  },
+  {
+    "path": "./linux/tools/testing/selftests/bpf/progs/kfunc_call_test_subprog.c",
+    "line_number": 32,
+    "line": "int kfunc_call_test1(struct __sk_buff *skb)"
+  },
+  {
+    "path": "./linux/tools/testing/selftests/bpf/progs/kprobe_multi.c",
+    "line_number": 9,
+    "line": "extern const void bpf_fentry_test1 __ksym;"
+  },
+  {
+    "path": "./linux/tools/testing/selftests/bpf/progs/kprobe_multi.c",
+    "line_number": 21,
+    "line": "__u64 kprobe_test1_result = 0;"
+  },
+  {
+    "path": "./linux/tools/testing/selftests/bpf/progs/kprobe_multi.c",
+    "line_number": 30,
+    "line": "__u64 kretprobe_test1_result = 0;"
+  },
+  {
+    "path": "./linux/tools/testing/selftests/bpf/progs/kprobe_multi.c",
+    "line_number": 54,
+    "line": "\t\tSET(kretprobe_test1_result, &bpf_fentry_test1, 8);"
+  },
+  {
+    "path": "./linux/tools/testing/selftests/bpf/progs/kprobe_multi.c",
+    "line_number": 63,
+    "line": "\t\tSET(kprobe_test1_result, &bpf_fentry_test1, 1);"
+  },
+  {
+    "path": "./linux/tools/testing/selftests/bpf/progs/kprobe_multi.c",
+    "line_number": 114,
+    "line": "extern const void bpf_testmod_fentry_test1 __ksym;"
+  },
+  {
+    "path": "./linux/tools/testing/selftests/bpf/progs/kprobe_multi.c",
+    "line_number": 118,
+    "line": "__u64 kprobe_testmod_test1_result = 0;"
+  },
+  {
+    "path": "./linux/tools/testing/selftests/bpf/progs/kprobe_multi.c",
+    "line_number": 122,
+    "line": "__u64 kretprobe_testmod_test1_result = 0;"
+  },
+  {
+    "path": "./linux/tools/testing/selftests/bpf/progs/kprobe_multi.c",
+    "line_number": 134,
+    "line": "\t\tif ((const void *) addr == &bpf_testmod_fentry_test1)"
+  },
+  {
+    "path": "./linux/tools/testing/selftests/bpf/progs/kprobe_multi.c",
+    "line_number": 135,
+    "line": "\t\t\tkretprobe_testmod_test1_result = 1;"
+  },
+  {
+    "path": "./linux/tools/testing/selftests/bpf/progs/kprobe_multi.c",
+    "line_number": 141,
+    "line": "\t\tif ((const void *) addr == &bpf_testmod_fentry_test1)"
+  },
+  {
+    "path": "./linux/tools/testing/selftests/bpf/progs/kprobe_multi.c",
+    "line_number": 142,
+    "line": "\t\t\tkprobe_testmod_test1_result = 1;"
+  },
+  {
+    "path": "./linux/tools/testing/selftests/bpf/progs/kprobe_multi_session.c",
+    "line_number": 11,
+    "line": "extern const void bpf_fentry_test1 __ksym;"
+  },
+  {
+    "path": "./linux/tools/testing/selftests/bpf/progs/kprobe_multi_session.c",
+    "line_number": 29,
+    "line": "\t\t&bpf_fentry_test1,"
+  },
+  {
+    "path": "./linux/tools/testing/selftests/bpf/progs/kprobe_multi_session_cookie.c",
+    "line_number": 42,
+    "line": "SEC(\"kprobe.session/bpf_fentry_test1\")"
+  },
+  {
+    "path": "./linux/tools/testing/selftests/bpf/progs/kprobe_multi_session_cookie.c",
+    "line_number": 48,
+    "line": "SEC(\"kprobe.session/bpf_fentry_test1\")"
+  },
+  {
+    "path": "./linux/tools/testing/selftests/bpf/progs/kprobe_multi_session_cookie.c",
+    "line_number": 54,
+    "line": "SEC(\"kprobe.session/bpf_fentry_test1\")"
+  },
+  {
+    "path": "./linux/tools/testing/selftests/bpf/progs/linked_list_fail.c",
+    "line_number": 273,
+    "line": "\tstruct test1 {"
+  },
+  {
+    "path": "./linux/tools/testing/selftests/bpf/progs/missed_kprobe.c",
+    "line_number": 19,
+    "line": "SEC(\"kprobe/bpf_fentry_test1\")"
+  },
+  {
+    "path": "./linux/tools/testing/selftests/bpf/progs/missed_kprobe.c",
+    "line_number": 20,
+    "line": "int test1(struct pt_regs *ctx)"
+  },
+  {
+    "path": "./linux/tools/testing/selftests/bpf/progs/missed_kprobe_recursion.c",
+    "line_number": 19,
+    "line": "SEC(\"kprobe.multi/bpf_fentry_test1\")"
+  },
+  {
+    "path": "./linux/tools/testing/selftests/bpf/progs/missed_kprobe_recursion.c",
+    "line_number": 20,
+    "line": "int test1(struct pt_regs *ctx)"
+  },
+  {
+    "path": "./linux/tools/testing/selftests/bpf/progs/missed_tp_recursion.c",
+    "line_number": 18,
+    "line": "SEC(\"kprobe/bpf_fentry_test1\")"
+  },
+  {
+    "path": "./linux/tools/testing/selftests/bpf/progs/missed_tp_recursion.c",
+    "line_number": 19,
+    "line": "int test1(struct pt_regs *ctx)"
+  },
+  {
+    "path": "./linux/tools/testing/selftests/bpf/progs/percpu_alloc_array.c",
+    "line_number": 25,
+    "line": "SEC(\"?fentry/bpf_fentry_test1\")"
+  },
+  {
+    "path": "./linux/tools/testing/selftests/bpf/progs/percpu_alloc_array.c",
+    "line_number": 129,
+    "line": "SEC(\"?fentry.s/bpf_fentry_test1\")"
+  },
+  {
+    "path": "./linux/tools/testing/selftests/bpf/progs/percpu_alloc_cgrp_local_storage.c",
+    "line_number": 22,
+    "line": "SEC(\"fentry/bpf_fentry_test1\")"
+  },
+  {
+    "path": "./linux/tools/testing/selftests/bpf/progs/percpu_alloc_fail.c",
+    "line_number": 38,
+    "line": "SEC(\"?fentry/bpf_fentry_test1\")"
+  },
+  {
+    "path": "./linux/tools/testing/selftests/bpf/progs/percpu_alloc_fail.c",
+    "line_number": 62,
+    "line": "SEC(\"?fentry/bpf_fentry_test1\")"
+  },
+  {
+    "path": "./linux/tools/testing/selftests/bpf/progs/percpu_alloc_fail.c",
+    "line_number": 86,
+    "line": "SEC(\"?fentry.s/bpf_fentry_test1\")"
+  },
+  {
+    "path": "./linux/tools/testing/selftests/bpf/progs/percpu_alloc_fail.c",
+    "line_number": 112,
+    "line": "SEC(\"?fentry.s/bpf_fentry_test1\")"
+  },
+  {
+    "path": "./linux/tools/testing/selftests/bpf/progs/percpu_alloc_fail.c",
+    "line_number": 126,
+    "line": "SEC(\"?fentry.s/bpf_fentry_test1\")"
+  },
+  {
+    "path": "./linux/tools/testing/selftests/bpf/progs/percpu_alloc_fail.c",
+    "line_number": 140,
+    "line": "SEC(\"?fentry.s/bpf_fentry_test1\")"
+  },
+  {
+    "path": "./linux/tools/testing/selftests/bpf/progs/percpu_alloc_fail.c",
+    "line_number": 154,
+    "line": "SEC(\"?fentry.s/bpf_fentry_test1\")"
+  },
+  {
+    "path": "./linux/tools/testing/selftests/bpf/progs/percpu_alloc_fail.c",
+    "line_number": 168,
+    "line": "SEC(\"?fentry.s/bpf_fentry_test1\")"
+  },
+  {
+    "path": "./linux/tools/testing/selftests/bpf/progs/preempted_bpf_ma_op.c",
+    "line_number": 80,
+    "line": "SEC(\"fentry/bpf_fentry_test1\")"
+  },
+  {
+    "path": "./linux/tools/testing/selftests/bpf/progs/preempted_bpf_ma_op.c",
+    "line_number": 88,
+    "line": "int BPF_PROG2(test1, int, a, u64, b)"
+  },
+  {
+    "path": "./linux/tools/testing/selftests/bpf/progs/security_bpf_map.c",
+    "line_number": 59,
+    "line": "SEC(\"fentry/bpf_fentry_test1\")"
+  },
+  {
+    "path": "./linux/tools/testing/selftests/bpf/progs/tailcall_poke.c",
+    "line_number": 15,
+    "line": "SEC(\"?fentry/bpf_fentry_test1\")"
+  },
+  {
+    "path": "./linux/tools/testing/selftests/bpf/progs/tailcall_poke.c",
+    "line_number": 22,
+    "line": "SEC(\"fentry/bpf_fentry_test1\")"
+  },
+  {
+    "path": "./linux/tools/testing/selftests/bpf/progs/tailcall_poke.c",
+    "line_number": 28,
+    "line": "SEC(\"fentry/bpf_fentry_test1\")"
+  },
+  {
+    "path": "./linux/tools/testing/selftests/bpf/progs/test_bpf_cookie.c",
+    "line_number": 106,
+    "line": "SEC(\"fentry/bpf_fentry_test1\")"
+  },
+  {
+    "path": "./linux/tools/testing/selftests/bpf/progs/test_bpf_cookie.c",
+    "line_number": 107,
+    "line": "int BPF_PROG(fentry_test1, int a)"
+  },
+  {
+    "path": "./linux/tools/testing/selftests/bpf/progs/test_bpf_cookie.c",
+    "line_number": 113,
+    "line": "SEC(\"fexit/bpf_fentry_test1\")"
+  },
+  {
+    "path": "./linux/tools/testing/selftests/bpf/progs/test_bpf_cookie.c",
+    "line_number": 114,
+    "line": "int BPF_PROG(fexit_test1, int a, int ret)"
+  },
+  {
+    "path": "./linux/tools/testing/selftests/bpf/progs/test_btf_decl_tag.c",
+    "line_number": 46,
+    "line": "SEC(\"fentry/bpf_fentry_test1\")"
+  },
+  {
+    "path": "./linux/tools/testing/selftests/bpf/progs/test_kfunc_param_nullable.c",
+    "line_number": 10,
+    "line": "int kfunc_dynptr_nullable_test1(struct __sk_buff *skb)"
+  },
+  {
+    "path": "./linux/tools/testing/selftests/bpf/progs/test_uprobe.c",
+    "line_number": 10,
+    "line": "int test1_result = 0;"
+  },
+  {
+    "path": "./linux/tools/testing/selftests/bpf/progs/test_uprobe.c",
+    "line_number": 16,
+    "line": "int BPF_UPROBE(test1)"
+  },
+  {
+    "path": "./linux/tools/testing/selftests/bpf/progs/test_uprobe.c",
+    "line_number": 23,
+    "line": "\ttest1_result = 1;"
+  },
+  {
+    "path": "./linux/tools/testing/selftests/bpf/progs/timer.c",
+    "line_number": 134,
+    "line": "SEC(\"fentry/bpf_fentry_test1\")"
+  },
+  {
+    "path": "./linux/tools/testing/selftests/bpf/progs/timer.c",
+    "line_number": 135,
+    "line": "int BPF_PROG2(test1, int, a)"
+  },
+  {
+    "path": "./linux/tools/testing/selftests/bpf/progs/timer.c",
+    "line_number": 181,
+    "line": "\t\t/* cancel arr_timer otherwise bpf_fentry_test1 prog"
+  },
+  {
+    "path": "./linux/tools/testing/selftests/bpf/progs/timer_failure.c",
+    "line_number": 45,
+    "line": "SEC(\"fentry/bpf_fentry_test1\")"
+  },
+  {
+    "path": "./linux/tools/testing/selftests/bpf/progs/timer_interrupt.c",
+    "line_number": 33,
+    "line": "SEC(\"fentry/bpf_fentry_test1\")"
+  },
+  {
+    "path": "./linux/tools/testing/selftests/bpf/progs/timer_mim.c",
+    "line_number": 64,
+    "line": "SEC(\"fentry/bpf_fentry_test1\")"
+  },
+  {
+    "path": "./linux/tools/testing/selftests/bpf/progs/timer_mim.c",
+    "line_number": 65,
+    "line": "int BPF_PROG(test1, int a)"
+  },
+  {
+    "path": "./linux/tools/testing/selftests/bpf/progs/timer_mim_reject.c",
+    "line_number": 46,
+    "line": "SEC(\"fentry/bpf_fentry_test1\")"
+  },
+  {
+    "path": "./linux/tools/testing/selftests/bpf/progs/timer_mim_reject.c",
+    "line_number": 47,
+    "line": "int BPF_PROG(test1, int a)"
+  },
+  {
+    "path": "./linux/tools/testing/selftests/bpf/progs/verifier_bounds.c",
+    "line_number": 142,
+    "line": "__description(\"bounds check based on sign-extended MOV. test1\")"
+  },
+  {
+    "path": "./linux/tools/testing/selftests/bpf/progs/verifier_bounds.c",
+    "line_number": 145,
+    "line": "__naked void on_sign_extended_mov_test1(void)"
+  },
+  {
+    "path": "./linux/tools/testing/selftests/bpf/progs/verifier_bounds.c",
+    "line_number": 204,
+    "line": "__description(\"bounds check based on reg_off + var_off + insn_off. test1\")"
+  },
+  {
+    "path": "./linux/tools/testing/selftests/bpf/progs/verifier_bounds.c",
+    "line_number": 206,
+    "line": "__naked void var_off_insn_off_test1(void)"
+  },
+  {
+    "path": "./linux/tools/testing/selftests/bpf/progs/verifier_bounds.c",
+    "line_number": 518,
+    "line": "__description(\"bounds check map access with off+size signed 32bit overflow. test1\")"
+  },
+  {
+    "path": "./linux/tools/testing/selftests/bpf/progs/verifier_bounds.c",
+    "line_number": 521,
+    "line": "__naked void size_signed_32bit_overflow_test1(void)"
+  },
+  {
+    "path": "./linux/tools/testing/selftests/bpf/progs/verifier_bounds.c",
+    "line_number": 623,
+    "line": "__description(\"bounds check mixed 32bit and 64bit arithmetic. test1\")"
+  },
+  {
+    "path": "./linux/tools/testing/selftests/bpf/progs/verifier_bounds.c",
+    "line_number": 632,
+    "line": "__naked void _32bit_and_64bit_arithmetic_test1(void)"
+  },
+  {
+    "path": "./linux/tools/testing/selftests/bpf/progs/verifier_btf_ctx_access.c",
+    "line_number": 68,
+    "line": "SEC(\"fentry/bpf_fentry_test10\")"
+  },
+  {
+    "path": "./linux/tools/testing/selftests/bpf/progs/verifier_cgroup_inv_retcode.c",
+    "line_number": 9,
+    "line": "__description(\"bpf_exit with invalid return code. test1\")"
+  },
+  {
+    "path": "./linux/tools/testing/selftests/bpf/progs/verifier_cgroup_inv_retcode.c",
+    "line_number": 11,
+    "line": "__naked void with_invalid_return_code_test1(void)"
+  },
+  {
+    "path": "./linux/tools/testing/selftests/bpf/progs/verifier_direct_packet_access.c",
+    "line_number": 25,
+    "line": "__description(\"direct packet access: test1\")"
+  },
+  {
+    "path": "./linux/tools/testing/selftests/bpf/progs/verifier_direct_packet_access.c",
+    "line_number": 27,
+    "line": "__naked void direct_packet_access_test1(void)"
+  },
+  {
+    "path": "./linux/tools/testing/selftests/bpf/progs/verifier_direct_packet_access.c",
+    "line_number": 230,
+    "line": "__description(\"direct packet access: test10 (write invalid)\")"
+  },
+  {
+    "path": "./linux/tools/testing/selftests/bpf/progs/verifier_direct_packet_access.c",
+    "line_number": 232,
+    "line": "__naked void packet_access_test10_write_invalid(void)"
+  },
+  {
+    "path": "./linux/tools/testing/selftests/bpf/progs/verifier_direct_packet_access.c",
+    "line_number": 252,
+    "line": "__description(\"direct packet access: test11 (shift, good access)\")"
+  },
+  {
+    "path": "./linux/tools/testing/selftests/bpf/progs/verifier_direct_packet_access.c",
+    "line_number": 254,
+    "line": "__naked void access_test11_shift_good_access(void)"
+  },
+  {
+    "path": "./linux/tools/testing/selftests/bpf/progs/verifier_direct_packet_access.c",
+    "line_number": 279,
+    "line": "__description(\"direct packet access: test12 (and, good access)\")"
+  },
+  {
+    "path": "./linux/tools/testing/selftests/bpf/progs/verifier_direct_packet_access.c",
+    "line_number": 281,
+    "line": "__naked void access_test12_and_good_access(void)"
+  },
+  {
+    "path": "./linux/tools/testing/selftests/bpf/progs/verifier_direct_packet_access.c",
+    "line_number": 306,
+    "line": "__description(\"direct packet access: test13 (branches, good access)\")"
+  },
+  {
+    "path": "./linux/tools/testing/selftests/bpf/progs/verifier_direct_packet_access.c",
+    "line_number": 308,
+    "line": "__naked void access_test13_branches_good_access(void)"
+  },
+  {
+    "path": "./linux/tools/testing/selftests/bpf/progs/verifier_direct_packet_access.c",
+    "line_number": 339,
+    "line": "__description(\"direct packet access: test14 (pkt_ptr += 0, CONST_IMM, good access)\")"
+  },
+  {
+    "path": "./linux/tools/testing/selftests/bpf/progs/verifier_direct_packet_access.c",
+    "line_number": 365,
+    "line": "__description(\"direct packet access: test15 (spill with xadd)\")"
+  },
+  {
+    "path": "./linux/tools/testing/selftests/bpf/progs/verifier_direct_packet_access.c",
+    "line_number": 368,
+    "line": "__naked void access_test15_spill_with_xadd(void)"
+  },
+  {
+    "path": "./linux/tools/testing/selftests/bpf/progs/verifier_direct_packet_access.c",
+    "line_number": 392,
+    "line": "__description(\"direct packet access: test16 (arith on data_end)\")"
+  },
+  {
+    "path": "./linux/tools/testing/selftests/bpf/progs/verifier_direct_packet_access.c",
+    "line_number": 394,
+    "line": "__naked void test16_arith_on_data_end(void)"
+  },
+  {
+    "path": "./linux/tools/testing/selftests/bpf/progs/verifier_direct_packet_access.c",
+    "line_number": 413,
+    "line": "__description(\"direct packet access: test17 (pruning, alignment)\")"
+  },
+  {
+    "path": "./linux/tools/testing/selftests/bpf/progs/verifier_direct_packet_access.c",
+    "line_number": 416,
+    "line": "__naked void packet_access_test17_pruning_alignment(void)"
+  },
+  {
+    "path": "./linux/tools/testing/selftests/bpf/progs/verifier_direct_packet_access.c",
+    "line_number": 439,
+    "line": "__description(\"direct packet access: test18 (imm += pkt_ptr, 1)\")"
+  },
+  {
+    "path": "./linux/tools/testing/selftests/bpf/progs/verifier_direct_packet_access.c",
+    "line_number": 441,
+    "line": "__naked void test18_imm_pkt_ptr_1(void)"
+  },
+  {
+    "path": "./linux/tools/testing/selftests/bpf/progs/verifier_direct_packet_access.c",
+    "line_number": 459,
+    "line": "__description(\"direct packet access: test19 (imm += pkt_ptr, 2)\")"
+  },
+  {
+    "path": "./linux/tools/testing/selftests/bpf/progs/verifier_direct_packet_access.c",
+    "line_number": 461,
+    "line": "__naked void test19_imm_pkt_ptr_2(void)"
+  },
+  {
+    "path": "./linux/tools/testing/selftests/bpf/progs/verifier_direct_stack_access_wraparound.c",
+    "line_number": 9,
+    "line": "__description(\"direct stack access with 32-bit wraparound. test1\")"
+  },
+  {
+    "path": "./linux/tools/testing/selftests/bpf/progs/verifier_direct_stack_access_wraparound.c",
+    "line_number": 12,
+    "line": "__naked void with_32_bit_wraparound_test1(void)"
+  },
+  {
+    "path": "./linux/tools/testing/selftests/bpf/progs/verifier_helper_packet_access.c",
+    "line_number": 16,
+    "line": "__description(\"helper access to packet: test1, valid packet_ptr range\")"
+  },
+  {
+    "path": "./linux/tools/testing/selftests/bpf/progs/verifier_helper_packet_access.c",
+    "line_number": 18,
+    "line": "__naked void test1_valid_packet_ptr_range(void)"
+  },
+  {
+    "path": "./linux/tools/testing/selftests/bpf/progs/verifier_helper_packet_access.c",
+    "line_number": 236,
+    "line": "__description(\"helper access to packet: test10, cls packet_ptr with too short range\")"
+  },
+  {
+    "path": "./linux/tools/testing/selftests/bpf/progs/verifier_helper_packet_access.c",
+    "line_number": 260,
+    "line": "__description(\"helper access to packet: test11, cls unsuitable helper 1\")"
+  },
+  {
+    "path": "./linux/tools/testing/selftests/bpf/progs/verifier_helper_packet_access.c",
+    "line_number": 262,
+    "line": "__naked void test11_cls_unsuitable_helper_1(void)"
+  },
+  {
+    "path": "./linux/tools/testing/selftests/bpf/progs/verifier_helper_packet_access.c",
+    "line_number": 285,
+    "line": "__description(\"helper access to packet: test12, cls unsuitable helper 2\")"
+  },
+  {
+    "path": "./linux/tools/testing/selftests/bpf/progs/verifier_helper_packet_access.c",
+    "line_number": 287,
+    "line": "__naked void test12_cls_unsuitable_helper_2(void)"
+  },
+  {
+    "path": "./linux/tools/testing/selftests/bpf/progs/verifier_helper_packet_access.c",
+    "line_number": 308,
+    "line": "__description(\"helper access to packet: test13, cls helper ok\")"
+  },
+  {
+    "path": "./linux/tools/testing/selftests/bpf/progs/verifier_helper_packet_access.c",
+    "line_number": 310,
+    "line": "__naked void packet_test13_cls_helper_ok(void)"
+  },
+  {
+    "path": "./linux/tools/testing/selftests/bpf/progs/verifier_helper_packet_access.c",
+    "line_number": 335,
+    "line": "__description(\"helper access to packet: test14, cls helper ok sub\")"
+  },
+  {
+    "path": "./linux/tools/testing/selftests/bpf/progs/verifier_helper_packet_access.c",
+    "line_number": 337,
+    "line": "__naked void test14_cls_helper_ok_sub(void)"
+  },
+  {
+    "path": "./linux/tools/testing/selftests/bpf/progs/verifier_helper_packet_access.c",
+    "line_number": 362,
+    "line": "__description(\"helper access to packet: test15, cls helper fail sub\")"
+  },
+  {
+    "path": "./linux/tools/testing/selftests/bpf/progs/verifier_helper_packet_access.c",
+    "line_number": 364,
+    "line": "__naked void test15_cls_helper_fail_sub(void)"
+  },
+  {
+    "path": "./linux/tools/testing/selftests/bpf/progs/verifier_helper_packet_access.c",
+    "line_number": 389,
+    "line": "__description(\"helper access to packet: test16, cls helper fail range 1\")"
+  },
+  {
+    "path": "./linux/tools/testing/selftests/bpf/progs/verifier_helper_packet_access.c",
+    "line_number": 416,
+    "line": "__description(\"helper access to packet: test17, cls helper fail range 2\")"
+  },
+  {
+    "path": "./linux/tools/testing/selftests/bpf/progs/verifier_helper_packet_access.c",
+    "line_number": 443,
+    "line": "__description(\"helper access to packet: test18, cls helper fail range 3\")"
+  },
+  {
+    "path": "./linux/tools/testing/selftests/bpf/progs/verifier_helper_packet_access.c",
+    "line_number": 471,
+    "line": "__description(\"helper access to packet: test19, cls helper range zero\")"
+  },
+  {
+    "path": "./linux/tools/testing/selftests/bpf/progs/verifier_helper_packet_access.c",
+    "line_number": 473,
+    "line": "__naked void test19_cls_helper_range_zero(void)"
+  },
+  {
+    "path": "./linux/tools/testing/selftests/bpf/progs/verifier_iterating_callbacks.c",
+    "line_number": 614,
+    "line": "int test1(const void *ctx)"
+  },
+  {
+    "path": "./linux/tools/testing/selftests/bpf/progs/verifier_lsm.c",
+    "line_number": 10,
+    "line": "__naked int errno_zero_retval_test1(void *ctx)"
+  },
+  {
+    "path": "./linux/tools/testing/selftests/bpf/progs/verifier_lsm.c",
+    "line_number": 65,
+    "line": "__naked int bool_retval_test1(void *ctx)"
+  },
+  {
+    "path": "./linux/tools/testing/selftests/bpf/progs/verifier_lsm.c",
+    "line_number": 110,
+    "line": "__naked int void_retval_test1(void *ctx)"
+  },
+  {
+    "path": "./linux/tools/testing/selftests/bpf/progs/verifier_lsm.c",
+    "line_number": 132,
+    "line": "__naked int disabled_hook_test1(void *ctx)"
+  },
+  {
+    "path": "./linux/tools/testing/selftests/bpf/progs/verifier_meta_access.c",
+    "line_number": 9,
+    "line": "__description(\"meta access, test1\")"
+  },
+  {
+    "path": "./linux/tools/testing/selftests/bpf/progs/verifier_meta_access.c",
+    "line_number": 11,
+    "line": "__naked void meta_access_test1(void)"
+  },
+  {
+    "path": "./linux/tools/testing/selftests/bpf/progs/verifier_meta_access.c",
+    "line_number": 201,
+    "line": "__description(\"meta access, test10\")"
+  },
+  {
+    "path": "./linux/tools/testing/selftests/bpf/progs/verifier_meta_access.c",
+    "line_number": 203,
+    "line": "__naked void meta_access_test10(void)"
+  },
+  {
+    "path": "./linux/tools/testing/selftests/bpf/progs/verifier_meta_access.c",
+    "line_number": 231,
+    "line": "__description(\"meta access, test11\")"
+  },
+  {
+    "path": "./linux/tools/testing/selftests/bpf/progs/verifier_meta_access.c",
+    "line_number": 233,
+    "line": "__naked void meta_access_test11(void)"
+  },
+  {
+    "path": "./linux/tools/testing/selftests/bpf/progs/verifier_meta_access.c",
+    "line_number": 259,
+    "line": "__description(\"meta access, test12\")"
+  },
+  {
+    "path": "./linux/tools/testing/selftests/bpf/progs/verifier_meta_access.c",
+    "line_number": 261,
+    "line": "__naked void meta_access_test12(void)"
+  },
+  {
+    "path": "./linux/tools/testing/selftests/bpf/progs/verifier_mul.c",
+    "line_number": 11,
+    "line": "SEC(\"fentry/bpf_fentry_test1\")"
+  },
+  {
+    "path": "./linux/tools/testing/selftests/bpf/progs/verifier_netfilter_ctx.c",
+    "line_number": 14,
+    "line": "__naked void with_invalid_ctx_access_test1(void)"
+  },
+  {
+    "path": "./linux/tools/testing/selftests/bpf/progs/verifier_netfilter_retcode.c",
+    "line_number": 8,
+    "line": "__description(\"bpf_exit with invalid return code. test1\")"
+  },
+  {
+    "path": "./linux/tools/testing/selftests/bpf/progs/verifier_netfilter_retcode.c",
+    "line_number": 10,
+    "line": "__naked void with_invalid_return_code_test1(void)"
+  },
+  {
+    "path": "./linux/tools/testing/selftests/bpf/progs/verifier_spin_lock.c",
+    "line_number": 21,
+    "line": "__description(\"spin_lock: test1 success\")"
+  },
+  {
+    "path": "./linux/tools/testing/selftests/bpf/progs/verifier_spin_lock.c",
+    "line_number": 24,
+    "line": "__naked void spin_lock_test1_success(void)"
+  },
+  {
+    "path": "./linux/tools/testing/selftests/bpf/progs/verifier_spin_lock.c",
+    "line_number": 332,
+    "line": "__description(\"spin_lock: test10 lock in subprog without unlock\")"
+  },
+  {
+    "path": "./linux/tools/testing/selftests/bpf/progs/verifier_spin_lock.c",
+    "line_number": 375,
+    "line": "__description(\"spin_lock: test11 ld_abs under lock\")"
+  },
+  {
+    "path": "./linux/tools/testing/selftests/bpf/progs/verifier_spin_lock.c",
+    "line_number": 377,
+    "line": "__naked void test11_ld_abs_under_lock(void)"
+  },
+  {
+    "path": "./linux/tools/testing/selftests/bpf/test_kmods/bpf_testmod.c",
+    "line_number": 391,
+    "line": "noinline int bpf_testmod_fentry_test1(int a)"
+  },
+  {
+    "path": "./linux/tools/testing/selftests/bpf/test_kmods/bpf_testmod.c",
+    "line_number": 412,
+    "line": "noinline int bpf_testmod_fentry_test11(u64 a, void *b, short c, int d,"
+  },
+  {
+    "path": "./linux/tools/testing/selftests/bpf/test_kmods/bpf_testmod.c",
+    "line_number": 491,
+    "line": "\tif (bpf_testmod_fentry_test1(1) != 2 ||"
+  },
+  {
+    "path": "./linux/tools/testing/selftests/bpf/test_kmods/bpf_testmod.c",
+    "line_number": 496,
+    "line": "\t    bpf_testmod_fentry_test11(16, (void *)17, 18, 19, (void *)20,"
+  },
+  {
+    "path": "./linux/tools/testing/selftests/bpf/test_kmods/bpf_testmod.c",
+    "line_number": 691,
+    "line": "__bpf_kfunc u64 bpf_kfunc_call_test1(struct sock *sk, u32 a, u64 b, u32 c, u64 d)"
+  },
+  {
+    "path": "./linux/tools/testing/selftests/bpf/test_kmods/bpf_testmod.c",
+    "line_number": 1114,
+    "line": "BTF_ID_FLAGS(func, bpf_kfunc_call_test1)"
+  },
+  {
+    "path": "./linux/tools/testing/selftests/bpf/test_kmods/bpf_testmod.c",
+    "line_number": 1692,
+    "line": "extern int bpf_fentry_test1(int a);"
+  },
+  {
+    "path": "./linux/tools/testing/selftests/bpf/test_kmods/bpf_testmod.c",
+    "line_number": 1720,
+    "line": "\tif (bpf_fentry_test1(0) < 0)"
+  },
+  {
+    "path": "./linux/tools/testing/selftests/bpf/test_kmods/bpf_testmod_kfunc.h",
+    "line_number": 108,
+    "line": "__u64 bpf_kfunc_call_test1(struct sock *sk, __u32 a, __u64 b,"
+  },
+  {
+    "path": "./linux/tools/testing/selftests/bpf/verifier/calls.c",
+    "line_number": 807,
+    "line": "\t\"calls: recursive call. test1\","
+  },
+  {
+    "path": "./linux/tools/testing/selftests/bpf/verifier/calls.c",
+    "line_number": 871,
+    "line": "\t\"calls: jumping across function bodies. test1\","
+  },
+  {
+    "path": "./linux/tools/testing/selftests/bpf/verifier/calls.c",
+    "line_number": 1074,
+    "line": "\t\"calls: stack depth check using three frames. test1\","
+  },
+  {
+    "path": "./linux/tools/testing/selftests/bpf/verifier/calls.c",
+    "line_number": 1526,
+    "line": "\t\"calls: two calls that receive map_value via arg=ptr_stack_of_caller. test1\","
+  },
+  {
+    "path": "./linux/tools/testing/selftests/bpf/verifier/calls.c",
+    "line_number": 1739,
+    "line": "\t\"calls: two calls that receive map_value_ptr_or_null via arg. test1\","
+  },
+  {
+    "path": "./linux/tools/testing/selftests/bpf/verifier/ld_imm64.c",
+    "line_number": 2,
+    "line": "\t\"test1 ld_imm64\","
+  },
+  {
+    "path": "./linux/tools/testing/selftests/bpf/verifier/ld_imm64.c",
+    "line_number": 93,
+    "line": "\t\"test10 ld_imm64\","
+  },
+  {
+    "path": "./linux/tools/testing/selftests/bpf/verifier/ld_imm64.c",
+    "line_number": 103,
+    "line": "\t\"test11 ld_imm64\","
+  },
+  {
+    "path": "./linux/tools/testing/selftests/bpf/verifier/ld_imm64.c",
+    "line_number": 113,
+    "line": "\t\"test12 ld_imm64\","
+  },
+  {
+    "path": "./linux/tools/testing/selftests/bpf/verifier/ld_imm64.c",
+    "line_number": 124,
+    "line": "\t\"test13 ld_imm64\","
+  },
+  {
+    "path": "./linux/tools/testing/selftests/bpf/verifier/ld_imm64.c",
+    "line_number": 135,
+    "line": "\t\"test14 ld_imm64: reject 2nd imm != 0\","
+  },
+  {
+    "path": "./linux/tools/testing/selftests/bpf/verifier/sleepable.c",
+    "line_number": 9,
+    "line": "\t.kfunc = \"bpf_fentry_test1\","
+  },
+  {
+    "path": "./linux/tools/testing/selftests/bpf/verifier/sleepable.c",
+    "line_number": 22,
+    "line": "\t.kfunc = \"bpf_fentry_test1\","
+  },
+  {
+    "path": "./linux/tools/testing/selftests/bpf/verifier/sleepable.c",
+    "line_number": 35,
+    "line": "\t.kfunc = \"bpf_fentry_test1\","
+  },
+  {
+    "path": "./linux/tools/testing/selftests/bpf/verifier/sleepable.c",
+    "line_number": 73,
+    "line": "\t.kfunc = \"bpf_fentry_test1\","
+  },
+  {
+    "path": "./linux/tools/testing/selftests/cgroup/test_zswap.c",
+    "line_number": 421,
+    "line": "\twb_group = setup_test_group_1M(root, \"per_memcg_wb_test1\");"
+  },
+  {
+    "path": "./linux/tools/testing/selftests/cpufreq/main.sh",
+    "line_number": 30,
+    "line": "\t     sptest1: Simple governor switch to produce lockdep."
+  },
+  {
+    "path": "./linux/tools/testing/selftests/cpufreq/main.sh",
+    "line_number": 82,
+    "line": "\t\t\t   # suspend_rtc, hibernate_rtc, modtest, sptest1/2/3/4 (default: basic))"
+  },
+  {
+    "path": "./linux/tools/testing/selftests/cpufreq/main.sh",
+    "line_number": 156,
+    "line": "\t\t\"sptest1\")"
+  },
+  {
+    "path": "./linux/tools/testing/selftests/drivers/net/netdevsim/devlink.sh",
+    "line_number": 117,
+    "line": "\tlocal test1"
+  },
+  {
+    "path": "./linux/tools/testing/selftests/drivers/net/netdevsim/devlink.sh",
+    "line_number": 120,
+    "line": "\tcheck_value test1 initial true Y"
+  },
+  {
+    "path": "./linux/tools/testing/selftests/drivers/net/netdevsim/devlink.sh",
+    "line_number": 124,
+    "line": "\tparam_set test1 false"
+  },
+  {
+    "path": "./linux/tools/testing/selftests/drivers/net/netdevsim/devlink.sh",
+    "line_number": 125,
+    "line": "\tcheck_err $? \"Failed to set test1 param value\""
+  },
+  {
+    "path": "./linux/tools/testing/selftests/drivers/net/netdevsim/devlink.sh",
+    "line_number": 128,
+    "line": "\tcheck_value test1 post-set false Y"
+  },
+  {
+    "path": "./linux/tools/testing/selftests/drivers/net/netdevsim/devlink.sh",
+    "line_number": 133,
+    "line": "\tcheck_value test1 post-reload false N"
+  },
+  {
+    "path": "./linux/tools/testing/selftests/ftrace/test.d/ftrace/fgraph-multi-filter.tc",
+    "line_number": 8,
+    "line": "INSTANCE1=\"instances/test1_$$\""
+  },
+  {
+    "path": "./linux/tools/testing/selftests/ftrace/test.d/ftrace/fgraph-multi.tc",
+    "line_number": 8,
+    "line": "INSTANCE1=\"instances/test1_$$\""
+  },
+  {
+    "path": "./linux/tools/testing/selftests/gpio/gpio-aggregator.sh",
+    "line_number": 286,
+    "line": "agg_set_line_name agg0 line1 test1"
+  },
+  {
+    "path": "./linux/tools/testing/selftests/gpio/gpio-aggregator.sh",
+    "line_number": 295,
+    "line": "test \"$(agg_get_line_name agg0 1)\" = \"test1\" || fail \"line name is unset\""
+  },
+  {
+    "path": "./linux/tools/testing/selftests/gpio/gpio-aggregator.sh",
+    "line_number": 404,
+    "line": "\tagg_set_line_name agg0 line1 test1"
+  },
+  {
+    "path": "./linux/tools/testing/selftests/mm/charge_reserved_hugetlb.sh",
+    "line_number": 62,
+    "line": "  if [[ -e $cgroup_path/hugetlb_cgroup_test1 ]]; then"
+  },
+  {
+    "path": "./linux/tools/testing/selftests/mm/charge_reserved_hugetlb.sh",
+    "line_number": 63,
+    "line": "    rmdir $cgroup_path/hugetlb_cgroup_test1"
+  },
+  {
+    "path": "./linux/tools/testing/selftests/mm/charge_reserved_hugetlb.sh",
+    "line_number": 343,
+    "line": "  setup_cgroup \"hugetlb_cgroup_test1\" \"$cgroup_limit1\" \"$reservation_limit1\""
+  },
+  {
+    "path": "./linux/tools/testing/selftests/mm/charge_reserved_hugetlb.sh",
+    "line_number": 349,
+    "line": "  write_hugetlbfs_and_get_usage \"hugetlb_cgroup_test1\" \"$size1\" \\"
+  },
+  {
+    "path": "./linux/tools/testing/selftests/mm/charge_reserved_hugetlb.sh",
+    "line_number": 350,
+    "line": "    \"$populate1\" \"$write1\" \"/mnt/huge/test1\" \"$method\" \"$private\" \\"
+  },
+  {
+    "path": "./linux/tools/testing/selftests/mm/charge_reserved_hugetlb.sh",
+    "line_number": 358,
+    "line": "  local cgroup1_hugetlb_usage=$cgroup_path/hugetlb_cgroup_test1/hugetlb.${MB}MB.$fault_usage_file"
+  },
+  {
+    "path": "./linux/tools/testing/selftests/mm/charge_reserved_hugetlb.sh",
+    "line_number": 359,
+    "line": "  local cgroup1_reservation_usage=$cgroup_path/hugetlb_cgroup_test1/hugetlb.${MB}MB.$reservation_usage_file"
+  },
+  {
+    "path": "./linux/tools/testing/selftests/mm/charge_reserved_hugetlb.sh",
+    "line_number": 386,
+    "line": "    \"hugetlbt_cgroup_test1 final hugetlb is not zero\""
+  },
+  {
+    "path": "./linux/tools/testing/selftests/mm/charge_reserved_hugetlb.sh",
+    "line_number": 388,
+    "line": "    \"hugetlbt_cgroup_test1 final reservation is not zero\""
+  },
+  {
+    "path": "./linux/tools/testing/selftests/mm/hugetlb_reparenting_test.sh",
+    "line_number": 58,
+    "line": "  rmdir \"$CGROUP_ROOT\"/test1 2>/dev/null"
+  },
+  {
+    "path": "./linux/tools/testing/selftests/mm/hugetlb_reparenting_test.sh",
+    "line_number": 171,
+    "line": "mkdir $CGROUP_ROOT/test1"
+  },
+  {
+    "path": "./linux/tools/testing/selftests/mm/hugetlb_reparenting_test.sh",
+    "line_number": 174,
+    "line": "write_hugetlbfs test1 \"$MNT\"/test $size"
+  },
+  {
+    "path": "./linux/tools/testing/selftests/mm/hugetlb_reparenting_test.sh",
+    "line_number": 177,
+    "line": "rmdir $CGROUP_ROOT/test1"
+  },
+  {
+    "path": "./linux/tools/testing/selftests/mm/hugetlb_reparenting_test.sh",
+    "line_number": 178,
+    "line": "mkdir $CGROUP_ROOT/test1"
+  },
+  {
+    "path": "./linux/tools/testing/selftests/mqueue/mq_open_tests.c",
+    "line_number": 58,
+    "line": "char *default_queue_path = \"/test1\";"
+  },
+  {
+    "path": "./linux/tools/testing/selftests/net/so_incoming_cpu.c",
+    "line_number": 235,
+    "line": "TEST_F(so_incoming_cpu, test1)"
+  },
+  {
+    "path": "./linux/tools/testing/selftests/nolibc/nolibc-test.c",
+    "line_number": 1432,
+    "line": "\t\tchar buf[11] = \"test123456\";"
+  },
+  {
+    "path": "./linux/tools/testing/selftests/sparc64/drivers/adi-test.c",
+    "line_number": 347,
+    "line": "static int test1_prpw_aligned_4096bytes(int fd)"
+  },
+  {
+    "path": "./linux/tools/testing/selftests/sparc64/drivers/adi-test.c",
+    "line_number": 669,
+    "line": "\ttest1_prpw_aligned_4096bytes,"
+  }
+]
