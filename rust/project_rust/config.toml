@@ -1,0 +1,131 @@
+workspace = "coding-space"
+event_source = "events.jsonl"
+database_path = "mission_control.sqlite3"
+
+[security]
+workspace_root = "."
+read_only = false
+allow_terminal = false
+terminal_allowlist = ["git", "cargo", "openclaw"]
+# Spustí se po zápisu artefaktů pouze pokud je allow_terminal = true.
+validation_command = ["cargo", "test", "--offline"]
+
+[openclaw]
+enabled = true
+command = "openclaw"
+url = "ws://127.0.0.1:18789"
+token_env = "OPENCLAW_GATEWAY_TOKEN"
+agent_id = "main"
+task_input_file = "tasks.txt"
+task_report_file = "logs/openclaw-task-results.log"
+
+[[providers]]
+id = "ollama"
+kind = "ollama"
+base_url = "http://localhost:11434"
+timeout_secs = 120
+
+[[providers]]
+id = "openai"
+kind = "openai"
+base_url = "https://api.openai.com"
+api_key_env = "OPENAI_API_KEY"
+timeout_secs = 120
+
+[[providers]]
+id = "anthropic"
+kind = "anthropic"
+base_url = "https://api.anthropic.com"
+api_key_env = "ANTHROPIC_API_KEY"
+timeout_secs = 120
+
+[[providers]]
+id = "local"
+kind = "demo"
+base_url = "demo://local"
+timeout_secs = 5
+
+[[models]]
+id = "demo"
+name = "Offline Demo"
+provider = "local"
+model = "demo-model"
+
+[[models]]
+id = "ollama-qwen"
+name = "Ollama · Qwen 2.5 Coder 14B"
+provider = "ollama"
+model = "qwen2.5-coder:14b"
+
+[[models]]
+id = "openai-gpt4o"
+name = "OpenAI · GPT-4o"
+provider = "openai"
+model = "gpt-4o"
+
+[[models]]
+id = "anthropic-sonnet"
+name = "Anthropic · Claude 3.5 Sonnet"
+provider = "anthropic"
+model = "claude-3.5-sonnet"
+
+[notifications]
+webhook_url_env = "MISSION_CONTROL_WEBHOOK_URL"
+telegram_token_env = "TELEGRAM_BOT_TOKEN"
+telegram_chat_id_env = "TELEGRAM_CHAT_ID"
+
+[[agents]]
+id = "prompt-architect"
+role = "Architect"
+model = "gpt-4o"
+provider = "openai"
+tools = ["none"]
+soul_file = "souls/prompt-architect.md"
+
+[[agents]]
+id = "code-generator"
+role = "Developer"
+model = "qwen2.5-coder:14b"
+provider = "ollama"
+tools = ["filesystem", "terminal"]
+soul_file = "souls/code-generator.md"
+
+[[agents]]
+id = "code-reviewer"
+role = "Reviewer"
+model = "gpt-4o"
+provider = "openai"
+tools = ["filesystem"]
+soul_file = "souls/code-reviewer.md"
+
+[[agents]]
+id = "quality-gate"
+role = "Human approval"
+model = "control-plane"
+provider = "local"
+tools = ["approval.request"]
+soul_file = "souls/quality-gate.md"
+
+[[workspaces]]
+id = "coding-space"
+name = "Coding Space"
+description = "Vývoj, refaktoring, testování a práce s Git repozitáři."
+agents = ["prompt-architect", "code-generator", "code-reviewer", "quality-gate"]
+
+[[workspaces]]
+id = "content-space"
+name = "Content Space"
+description = "Scénáře, obsahové plány, SEO a analytika pro video obsah."
+agents = ["prompt-architect", "code-reviewer", "quality-gate"]
+
+[[workspaces]]
+id = "graphics-space"
+name = "Graphics Space"
+description = "Prompty a workflow pro obrázky, video a správu assetů."
+agents = ["prompt-architect", "quality-gate"]
+
+[[workspaces]]
+id = "custom-space"
+name = "Custom Space"
+description = "Vlastní graf agentů nastavený uživatelem."
+agents = ["prompt-architect", "quality-gate"]

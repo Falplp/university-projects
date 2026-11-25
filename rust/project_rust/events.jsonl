@@ -1,0 +1,5 @@
+{"timestamp":"14:32:07","agent":"pipeline","kind":"pipeline","message":"pipeline created #mc-2048"}
+{"timestamp":"14:32:09","agent":"prompt-architect","kind":"llm","message":"completed architecture specification","tokens":1842,"duration_ms":12000}
+{"timestamp":"14:32:10","agent":"code-generator","kind":"llm","message":"started qwen2.5-coder:14b via Ollama","tokens":4276}
+{"timestamp":"14:32:14","agent":"code-generator","kind":"tool","message":"filesystem.write src/main.py","tokens":12,"duration_ms":240}
+{"timestamp":"14:32:31","agent":"code-generator","kind":"error","message":"terminal.exec pytest -q exited with code 1: missing fixture"}
