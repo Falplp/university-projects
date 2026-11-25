@@ -1,0 +1,6 @@
+# Jeden OpenClaw úkol na jeden řádek. Prázdné řádky a komentáře se ignorují.
+# Příklad:
+# Vytvoř v pracovním adresáři soubor example.md a napiš do něj krátké shrnutí projektu.
+Vytvoř soubor first.md s krátkým popisem projektu.
+Spusť testy a vytvoř test-report.md.
+Zkontroluj README.md a oprav neaktuální instrukce.

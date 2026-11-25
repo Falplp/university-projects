@@ -1,0 +1,4 @@
+target
+mission_control.sqlite3
+.git
+.env

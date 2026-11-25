@@ -1,0 +1,25 @@
+services:
+  mission-control:
+    build: .
+    restart: unless-stopped
+    stdin_open: true
+    tty: true
+    environment:
+      MISSION_CONTROL_DB: /data/mission_control.sqlite3
+      MISSION_CONTROL_WORKSPACE_ROOT: /workspace
+      OLLAMA_BASE_URL: http://host.docker.internal:11434
+      OPENAI_API_KEY: ${OPENAI_API_KEY:-}
+      ANTHROPIC_API_KEY: ${ANTHROPIC_API_KEY:-}
+      MISSION_CONTROL_WEBHOOK_URL: ${MISSION_CONTROL_WEBHOOK_URL:-}
+      TELEGRAM_BOT_TOKEN: ${TELEGRAM_BOT_TOKEN:-}
+      TELEGRAM_CHAT_ID: ${TELEGRAM_CHAT_ID:-}
+    volumes:
+      - mission-control-data:/data
+      - ./workspace:/workspace
+      - ./tasks.txt:/app/tasks.txt:ro
+      - ./logs:/app/logs
+    extra_hosts:
+      - host.docker.internal:host-gateway
+
+volumes:
+  mission-control-data:

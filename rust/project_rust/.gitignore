@@ -1,0 +1,4 @@
+/mission_control.sqlite3
+/target/
+.env
+/logs/
